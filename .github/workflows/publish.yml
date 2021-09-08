@@ -1,0 +1,26 @@
+name: Publish Hugo
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Run Hugo build
+        uses: jakejarvis/hugo-build-action@master
+        with:
+          args: --minify
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          path: docs/
