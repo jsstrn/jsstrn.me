@@ -1,10 +1,11 @@
 theme: PaperMod
 
-baseURL: 'https://jsstrn.me/'
+baseURL: "https://jsstrn.me/"
 languageCode: en-us
 title: Jesstern
 
 paginate: 5
+publishDir: docs
 
 taxonomies:
   category: categories
@@ -43,7 +44,7 @@ menu:
 params:
   author: "Jesstern Rays"
   defaultTheme: auto
-  
+
   ShowToc: true
   ShowBreadCrumbs: true
   ShowReadingTime: true
@@ -54,7 +55,7 @@ params:
     Title: "Hello, I'm Jesstern! 👋 "
     Content: "Welcome to my personal digital space."
 
-  socialIcons: 
+  socialIcons:
     - name: "email"
       url: "hello@jsstrn.me"
     - name: "linkedin"
