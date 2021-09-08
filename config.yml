@@ -1,0 +1,73 @@
+theme: PaperMod
+
+baseURL: 'https://jsstrn.me/'
+languageCode: en-us
+title: Jesstern
+
+paginate: 5
+
+taxonomies:
+  category: categories
+  tag: tags
+
+menu:
+  main:
+    - name: Now
+      url: now/
+      weight: 1
+    - name: About
+      url: about/
+      weight: 2
+    - name: Notes
+      url: notes/
+      weight: 3
+    - name: Projects
+      url: projects/
+      weight: 4
+    - name: Blog
+      url: blog/
+      weight: 5
+    - name: Tags
+      url: tags/
+      weight: 6
+    - name: Categories
+      url: categories/
+      weight: 7
+    - name: Archive
+      url: archives/
+      weight: 8
+    - name: Search
+      url: search/
+      weight: 9
+
+params:
+  author: "Jesstern Rays"
+  defaultTheme: auto
+  
+  ShowToc: true
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+
+  homeInfoParams:
+    Title: "Hello, I'm Jesstern! 👋 "
+    Content: "Welcome to my personal digital space."
+
+  socialIcons: 
+    - name: "email"
+      url: "hello@jsstrn.me"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/jesstern"
+    - name: "github"
+      url: "https://github.com/jsstrn"
+    - name: "twitter"
+      url: "https://twitter.com/jsstrn"
+    - name: "telegram"
+      url: "https://t.me/jesstern"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
