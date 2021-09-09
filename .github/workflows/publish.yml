@@ -19,9 +19,3 @@ jobs:
         uses: jakejarvis/hugo-build-action@master
         with:
           args: --minify
-
-      - name: Upload artifact 🏗
-        uses: actions/upload-artifact@v2
-        with:
-          path: docs/
-
