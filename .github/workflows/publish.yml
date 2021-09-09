@@ -8,26 +8,26 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  publish:
     runs-on: ubuntu-latest
-    
+
     steps:
-      - name: Checkout 🛎
+      - name: Checkout code 🛎
         uses: actions/checkout@v2
 
-      - name: Build Hugo 🛠
+      - name: Build site 🛠
         uses: jakejarvis/hugo-build-action@master
         with:
           args: --minify
-      
-      - name: Upload artifact
+
+      - name: Upload artifact 📦
         uses: actions/upload-artifact@v2
         with:
           name: artifact
           path: docs
 
-      - name: Download artifact
-        uses: actions/download-artifact@v2
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
-          name: artifact
-          path: docs
+          branch: publish
+          folder: docs
