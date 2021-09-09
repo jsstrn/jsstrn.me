@@ -32,6 +32,4 @@ hugo new some-folder/some-title.md
 
 ## Themes
 
-Select themes from [here](https://themes.gohugo.io/) or [here](https://jamstackthemes.dev/ssg/hugo/).
-
-Current theme is [PaperMod](https://github.com/adityatelange/hugo-PaperMod). 
+Select themes from [here](https://themes.gohugo.io/) or [here](https://jamstackthemes.dev/ssg/hugo/). Current theme is [PaperMod](https://github.com/adityatelange/hugo-PaperMod). 
