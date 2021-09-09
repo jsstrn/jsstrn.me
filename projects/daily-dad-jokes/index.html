@@ -3,11 +3,13 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
-<title>Jesstern</title>
-<meta name=description content>
+<title>Daily Dad Jokes | Jesstern</title>
+<meta name=keywords content="telegram,telegraf,chatbot">
+<meta name=description content="How I built an event-driven serverless Telegram bot to deliver dad jokes to you daily">
 <meta name=author content="Jesstern Rays">
-<link rel=canonical href=https://jsstrn.github.io/jsstrn.me/>
+<link rel=canonical href=https://jsstrn.github.io/jsstrn.me/projects/daily-dad-jokes/>
 <link crossorigin=anonymous href=/jsstrn.me/assets/css/stylesheet.min.9f1d947375927e9847272b1f4e9be81336f539e513bf04d52cade31f81cad1af.css integrity="sha256-nx2Uc3WSfphHJysfTpvoEzb1OeUTvwTVLK3jH4HK0a8=" rel="preload stylesheet" as=style>
+<script defer crossorigin=anonymous src=/jsstrn.me/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
 <link rel=icon href=https://jsstrn.github.io/jsstrn.me/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://jsstrn.github.io/jsstrn.me/favicon-16x16.png>
 <link rel=icon type=image/png sizes=32x32 href=https://jsstrn.github.io/jsstrn.me/favicon-32x32.png>
@@ -16,18 +18,17 @@
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.88.1">
-<link rel=alternate type=application/rss+xml href=https://jsstrn.github.io/jsstrn.me/index.xml>
-<link rel=alternate type=application/json href=https://jsstrn.github.io/jsstrn.me/index.json>
-<meta property="og:title" content="Jesstern">
-<meta property="og:description" content>
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://jsstrn.github.io/jsstrn.me/">
+<meta property="og:title" content="Daily Dad Jokes">
+<meta property="og:description" content="How I built an event-driven serverless Telegram bot to deliver dad jokes to you daily">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://jsstrn.github.io/jsstrn.me/projects/daily-dad-jokes/"><meta property="article:section" content="projects">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Jesstern">
-<meta name=twitter:description content>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Organization","name":"Jesstern","url":"https://jsstrn.github.io/jsstrn.me/","description":"","thumbnailUrl":"https://jsstrn.github.io/jsstrn.me/favicon.ico","sameAs":["hello@jsstrn.me","https://linkedin.com/in/jesstern","https://github.com/jsstrn","https://twitter.com/jsstrn","https://t.me/jesstern","index.xml"]}</script>
+<meta name=twitter:title content="Daily Dad Jokes">
+<meta name=twitter:description content="How I built an event-driven serverless Telegram bot to deliver dad jokes to you daily">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Projects","item":"https://jsstrn.github.io/jsstrn.me/projects/"},{"@type":"ListItem","position":2,"name":"Daily Dad Jokes","item":"https://jsstrn.github.io/jsstrn.me/projects/daily-dad-jokes/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Daily Dad Jokes","name":"Daily Dad Jokes","description":"How I built an event-driven serverless Telegram bot to deliver dad jokes to you daily","keywords":["telegram","telegraf","chatbot"],"articleBody":"I created a Telegram channel to deliver dad jokes every day. I did not want to build a Node.js server and host it on Digital Ocean or Linode because that would be cost inefficient. Instead, I wanted to build an event-driven serverless architecture. We can achieve this with AWS Lambda for the lambda functions and AWS CloudWatch to trigger the lambda through scheduled events.\nFirst I created a bot and added it to a channel. The bot fetches a dad joke from icanhazdadjoke.com and publishes it to the channel. The last step was to trigger the lambda function on a regular schedule.\nYou can visit the Daily Dad Jokes public channel or subscribe to the channel on Telegram.\n","wordCount":"118","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"0001-01-01T00:00:00Z","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.github.io/jsstrn.me/projects/daily-dad-jokes/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.github.io/jsstrn.me/favicon.ico"}}}</script>
 </head>
-<body class=list id=top>
+<body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
 <noscript>
 <style type=text/css>#theme-toggle,.top-link{display:none}</style>
@@ -92,51 +93,33 @@
 </nav>
 </header>
 <main class=main>
-<article class="first-entry home-info">
-<header class=entry-header>
-<h1>Hello, I&rsquo;m Jesstern! 👋</h1>
-</header>
-<section class=entry-content>
-<p>Welcome to my personal digital space.</p>
-</section>
-<footer class=entry-footer>
-<div class=social-icons>
-<a href=hello@jsstrn.me target=_blank rel="noopener noreferrer me" title=Email><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 21" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1.0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1.0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-</a>
-<a href=https://linkedin.com/in/jesstern target=_blank rel="noopener noreferrer me" title=Linkedin><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-</a>
-<a href=https://github.com/jsstrn target=_blank rel="noopener noreferrer me" title=Github><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg>
-</a>
-<a href=https://twitter.com/jsstrn target=_blank rel="noopener noreferrer me" title=Twitter><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9.0 01-3.14 1.53 4.48 4.48.0 00-7.86 3v1A10.66 10.66.0 013 4s-4 9 5 13a11.64 11.64.0 01-7 2c9 5 20 0 20-11.5a4.5 4.5.0 00-.08-.83A7.72 7.72.0 0023 3z"/></svg>
-</a>
-<a href=https://t.me/jesstern target=_blank rel="noopener noreferrer me" title=Telegram><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.198 2.433a2.242 2.242.0 00-1.022.215l-8.609 3.33c-2.068.8-4.133 1.598-5.724 2.21a405.15 405.15.0 01-2.849 1.09c-.42.147-.99.332-1.473.901-.728.968.193 1.798.919 2.286 1.61.516 3.275 1.009 4.654 1.472.509 1.793.997 3.592 1.48 5.388.16.36.506.494.864.498l-.002.018s.281.028.555-.038a2.1 2.1.0 00.933-.517c.345-.324 1.28-1.244 1.811-1.764l3.999 2.952.032.018s.442.311 1.09.355c.324.022.75-.04 1.116-.308.37-.27.613-.702.728-1.196.342-1.492 2.61-12.285 2.997-14.072l-.01.042c.27-1.006.17-1.928-.455-2.474a1.654 1.654.0 00-1.034-.407z"/></svg>
-</a>
-<a href=index.xml target=_blank rel="noopener noreferrer me" title=Rss><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg>
-</a>
+<article class=post-single>
+<header class=post-header>
+<div class=breadcrumbs><a href=https://jsstrn.github.io/jsstrn.me/>Home</a>&nbsp;»&nbsp;<a href=https://jsstrn.github.io/jsstrn.me/projects/>Projects</a></div>
+<h1 class=post-title>
+Daily Dad Jokes
+</h1>
+<div class=post-meta>1 min&nbsp;·&nbsp;Jesstern Rays
 </div>
+</header>
+<div class=post-content><p>I created a Telegram channel to deliver dad jokes every day. I did not want to build a Node.js server and host it on Digital Ocean or Linode because that would be cost inefficient. Instead, I wanted to build an event-driven serverless architecture. We can achieve this with <a href=https://aws.amazon.com/lambda/>AWS Lambda</a> for the lambda functions and <a href=https://aws.amazon.com/cloudwatch/>AWS CloudWatch</a> to trigger the lambda through scheduled events.</p>
+<p>First I created a bot and added it to a channel. The bot fetches a dad joke from <a href=https://icanhazdadjoke.com/api>icanhazdadjoke.com</a> and publishes it to the channel. The last step was to trigger the lambda function on a regular schedule.</p>
+<p>You can visit the <a href=https://t.me/s/DailyDadJokes>Daily Dad Jokes</a> public channel or subscribe to the <a href=https://t.me/DailyDadJokes>channel</a> on Telegram.</p>
+</div>
+<footer class=post-footer>
+<ul class=post-tags>
+<li><a href=https://jsstrn.github.io/jsstrn.me/tags/telegram/>telegram</a></li>
+<li><a href=https://jsstrn.github.io/jsstrn.me/tags/telegraf/>telegraf</a></li>
+<li><a href=https://jsstrn.github.io/jsstrn.me/tags/chatbot/>chatbot</a></li>
+</ul>
+<nav class=paginav>
+<a class=prev href=https://jsstrn.github.io/jsstrn.me/projects/bbc-earth-daily/>
+<span class=title>« Prev Page</span>
+<br>
+<span>BBC Earth Daily</span>
+</a>
+</nav>
 </footer>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>BBC Earth Daily
-</h2>
-</header>
-<section class=entry-content>
-<p>How I built the BBC Earth Daily chatbot</p>
-</section>
-<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to BBC Earth Daily" href=https://jsstrn.github.io/jsstrn.me/projects/bbc-earth-daily/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Daily Dad Jokes
-</h2>
-</header>
-<section class=entry-content>
-<p>How I built an event-driven serverless Telegram bot to deliver dad jokes to you daily</p>
-</section>
-<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Daily Dad Jokes" href=https://jsstrn.github.io/jsstrn.me/projects/daily-dad-jokes/></a>
 </article>
 </main>
 <footer class=footer>
@@ -152,5 +135,6 @@ Powered by
 <script>let menu=document.getElementById('menu');menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)},document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
 <script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script>
 <script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script>
+<script>document.querySelectorAll('pre > code').forEach(b=>{const c=b.parentNode.parentNode,a=document.createElement('button');a.classList.add('copy-code'),a.innerText='copy';function d(){a.innerText='copied!',setTimeout(()=>{a.innerText='copy'},2e3)}a.addEventListener('click',e=>{if('clipboard'in navigator){navigator.clipboard.writeText(b.textContent),d();return}const a=document.createRange();a.selectNodeContents(b);const c=window.getSelection();c.removeAllRanges(),c.addRange(a);try{document.execCommand('copy'),d()}catch(a){}c.removeRange(a)}),c.classList.contains("highlight")?c.appendChild(a):c.parentNode.firstChild==c||(b.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?b.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(a):b.parentNode.appendChild(a))})</script>
 </body>
 </html>
