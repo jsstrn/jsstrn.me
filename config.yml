@@ -1,11 +1,11 @@
 theme: PaperMod
 
-baseURL: "https://jsstrn.me/"
+# baseURL: "https://jsstrn.me/"
+baseURL: "https://jsstrn.github.io/jsstrn.me/"
 languageCode: en-us
 title: Jesstern
 
 paginate: 5
-publishDir: docs
 
 taxonomies:
   category: categories
