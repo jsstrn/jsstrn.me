@@ -66,6 +66,8 @@ params:
       url: "https://twitter.com/jsstrn"
     - name: "telegram"
       url: "https://t.me/jesstern"
+    - name: "rss"
+      url: "index.xml"
 
 outputs:
   home:
