@@ -3,8 +3,10 @@ name: Publish Hugo
 on:
   push:
     branches: [ main ]
+
   pull_request:
     branches: [ main ]
+
   workflow_dispatch:
 
 jobs:
@@ -14,20 +16,21 @@ jobs:
     steps:
       - name: Checkout code 🛎
         uses: actions/checkout@v2
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Install Hugo 📋
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
 
       - name: Build site 🛠
-        uses: jakejarvis/hugo-build-action@master
-        with:
-          args: --minify
-
-      - name: Upload artifact 📦
-        uses: actions/upload-artifact@v2
-        with:
-          name: artifact
-          path: docs
+        run: hugo --minify
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.5
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          branch: publish
-          folder: docs
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: publish
+          publish_dir: ./docs
