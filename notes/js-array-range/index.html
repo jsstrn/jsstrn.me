@@ -7,27 +7,27 @@
 <meta name=keywords content="javascript">
 <meta name=description content="How to create an array of elements based on a range of numbers in JavaScript">
 <meta name=author content="Jesstern Rays">
-<link rel=canonical href=https://jsstrn.github.io/jsstrn.me/notes/js-array-range/>
-<link crossorigin=anonymous href=/jsstrn.me/assets/css/stylesheet.min.9f1d947375927e9847272b1f4e9be81336f539e513bf04d52cade31f81cad1af.css integrity="sha256-nx2Uc3WSfphHJysfTpvoEzb1OeUTvwTVLK3jH4HK0a8=" rel="preload stylesheet" as=style>
-<script defer crossorigin=anonymous src=/jsstrn.me/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
-<link rel=icon href=https://jsstrn.github.io/jsstrn.me/favicon.ico>
-<link rel=icon type=image/png sizes=16x16 href=https://jsstrn.github.io/jsstrn.me/favicon-16x16.png>
-<link rel=icon type=image/png sizes=32x32 href=https://jsstrn.github.io/jsstrn.me/favicon-32x32.png>
-<link rel=apple-touch-icon href=https://jsstrn.github.io/jsstrn.me/apple-touch-icon.png>
-<link rel=mask-icon href=https://jsstrn.github.io/jsstrn.me/safari-pinned-tab.svg>
+<link rel=canonical href=https://jsstrn.me/notes/js-array-range/>
+<link crossorigin=anonymous href=/assets/css/stylesheet.min.9f1d947375927e9847272b1f4e9be81336f539e513bf04d52cade31f81cad1af.css integrity="sha256-nx2Uc3WSfphHJysfTpvoEzb1OeUTvwTVLK3jH4HK0a8=" rel="preload stylesheet" as=style>
+<script defer crossorigin=anonymous src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
+<link rel=icon href=https://jsstrn.me/favicon.ico>
+<link rel=icon type=image/png sizes=16x16 href=https://jsstrn.me/favicon-16x16.png>
+<link rel=icon type=image/png sizes=32x32 href=https://jsstrn.me/favicon-32x32.png>
+<link rel=apple-touch-icon href=https://jsstrn.me/apple-touch-icon.png>
+<link rel=mask-icon href=https://jsstrn.me/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.88.1">
 <meta property="og:title" content="Create an array from range of numbers">
 <meta property="og:description" content="How to create an array of elements based on a range of numbers in JavaScript">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://jsstrn.github.io/jsstrn.me/notes/js-array-range/"><meta property="article:section" content="notes">
+<meta property="og:url" content="https://jsstrn.me/notes/js-array-range/"><meta property="article:section" content="notes">
 <meta property="article:modified_time" content="2021-09-10T19:16:20+08:00">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Create an array from range of numbers">
 <meta name=twitter:description content="How to create an array of elements based on a range of numbers in JavaScript">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Notes","item":"https://jsstrn.github.io/jsstrn.me/notes/"},{"@type":"ListItem","position":2,"name":"Create an array from range of numbers","item":"https://jsstrn.github.io/jsstrn.me/notes/js-array-range/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Create an array from range of numbers","name":"Create an array from range of numbers","description":"How to create an array of elements based on a range of numbers in JavaScript","keywords":["javascript"],"articleBody":"Let’s say we want to create a list of numbers from [0..9].\nA simple approach would be to use a for loop\nconst numbers = [] for (let i = 0; i  10; i++) { numbers.push(i) } // numbers = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ] Another approach is to use the Array.prototype.keys() method which returns the index of each element\nconst numbers = [...Array(10).keys()] // numbers = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ] Perhaps the most elegant solution is to use Array.from()\nconst numbers = Array.from({ length: 10 }, (_, i) = i) // numbers = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ] Array.from() takes an array-like object as its first argument and a map function that will be applied to each element. In this case, we pass an object with a length property and then we take just return the index from the map function.\nIf we wanted to start our list at 1 instead, then we can do this\nArray.from({ length: 10 }, (_, i) = i + 1) // numbers = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ] Or, more generally, if we wanted include 10 numbers starting from a certain number\nconst startingNumber = 3 Array.from({length: 10}, (_, i) = i + startingNumber) // numbers = [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ] References  Question in Stack Overflow Array.from() – 2ality Array.from() – MDN Array.prototype.keys() – MDN  ","wordCount":"260","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-09-10T19:16:20+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.github.io/jsstrn.me/notes/js-array-range/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.github.io/jsstrn.me/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Notes","item":"https://jsstrn.me/notes/"},{"@type":"ListItem","position":2,"name":"Create an array from range of numbers","item":"https://jsstrn.me/notes/js-array-range/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Create an array from range of numbers","name":"Create an array from range of numbers","description":"How to create an array of elements based on a range of numbers in JavaScript","keywords":["javascript"],"articleBody":"Let’s say we want to create a list of numbers from [0..9].\nA simple approach would be to use a for loop\nconst numbers = [] for (let i = 0; i  10; i++) { numbers.push(i) } // numbers = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ] Another approach is to use the Array.prototype.keys() method which returns the index of each element\nconst numbers = [...Array(10).keys()] // numbers = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ] Perhaps the most elegant solution is to use Array.from()\nconst numbers = Array.from({ length: 10 }, (_, i) = i) // numbers = [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ] Array.from() takes an array-like object as its first argument and a map function that will be applied to each element. In this case, we pass an object with a length property and then we take just return the index from the map function.\nIf we wanted to start our list at 1 instead, then we can do this\nArray.from({ length: 10 }, (_, i) = i + 1) // numbers = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ] Or, more generally, if we wanted include 10 numbers starting from a certain number\nconst startingNumber = 3 Array.from({length: 10}, (_, i) = i + startingNumber) // numbers = [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ] References  Question in Stack Overflow Array.from() – 2ality Array.from() – MDN Array.prototype.keys() – MDN  ","wordCount":"260","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-09-10T19:16:20+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/js-array-range/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -38,7 +38,7 @@
 <header class=header>
 <nav class=nav>
 <div class=logo>
-<a href=https://jsstrn.github.io/jsstrn.me/ accesskey=h title="Jesstern (Alt + H)">Jesstern</a>
+<a href=https://jsstrn.me/ accesskey=h title="Jesstern (Alt + H)">Jesstern</a>
 <span class=logo-switches>
 <button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
 </button>
@@ -46,47 +46,47 @@
 </div>
 <ul id=menu>
 <li>
-<a href=https://jsstrn.github.io/jsstrn.me/now/ title=Now>
+<a href=https://jsstrn.me/now/ title=Now>
 <span>Now</span>
 </a>
 </li>
 <li>
-<a href=https://jsstrn.github.io/jsstrn.me/about/ title=About>
+<a href=https://jsstrn.me/about/ title=About>
 <span>About</span>
 </a>
 </li>
 <li>
-<a href=https://jsstrn.github.io/jsstrn.me/notes/ title=Notes>
+<a href=https://jsstrn.me/notes/ title=Notes>
 <span>Notes</span>
 </a>
 </li>
 <li>
-<a href=https://jsstrn.github.io/jsstrn.me/projects/ title=Projects>
+<a href=https://jsstrn.me/projects/ title=Projects>
 <span>Projects</span>
 </a>
 </li>
 <li>
-<a href=https://jsstrn.github.io/jsstrn.me/blog/ title=Blog>
+<a href=https://jsstrn.me/blog/ title=Blog>
 <span>Blog</span>
 </a>
 </li>
 <li>
-<a href=https://jsstrn.github.io/jsstrn.me/tags/ title=Tags>
+<a href=https://jsstrn.me/tags/ title=Tags>
 <span>Tags</span>
 </a>
 </li>
 <li>
-<a href=https://jsstrn.github.io/jsstrn.me/categories/ title=Categories>
+<a href=https://jsstrn.me/categories/ title=Categories>
 <span>Categories</span>
 </a>
 </li>
 <li>
-<a href=https://jsstrn.github.io/jsstrn.me/archives/ title=Archive>
+<a href=https://jsstrn.me/archives/ title=Archive>
 <span>Archive</span>
 </a>
 </li>
 <li>
-<a href=https://jsstrn.github.io/jsstrn.me/search/ title="Search (Alt + /)" accesskey=/>
+<a href=https://jsstrn.me/search/ title="Search (Alt + /)" accesskey=/>
 <span>Search</span>
 </a>
 </li>
@@ -96,7 +96,7 @@
 <main class=main>
 <article class=post-single>
 <header class=post-header>
-<div class=breadcrumbs><a href=https://jsstrn.github.io/jsstrn.me/>Home</a>&nbsp;»&nbsp;<a href=https://jsstrn.github.io/jsstrn.me/notes/>Notes</a></div>
+<div class=breadcrumbs><a href=https://jsstrn.me/>Home</a>&nbsp;»&nbsp;<a href=https://jsstrn.me/notes/>Notes</a></div>
 <h1 class=post-title>
 Create an array from range of numbers
 </h1>
@@ -153,15 +153,15 @@ Array.<span style=color:#a6e22e>from</span>({<span style=color:#a6e22e>length</s
 </div>
 <footer class=post-footer>
 <ul class=post-tags>
-<li><a href=https://jsstrn.github.io/jsstrn.me/tags/javascript/>javascript</a></li>
+<li><a href=https://jsstrn.me/tags/javascript/>javascript</a></li>
 </ul>
 <nav class=paginav>
-<a class=prev href=https://jsstrn.github.io/jsstrn.me/notes/favicon/>
+<a class=prev href=https://jsstrn.me/notes/favicon/>
 <span class=title>« Prev Page</span>
 <br>
 <span>Create a favicon for your site</span>
 </a>
-<a class=next href=https://jsstrn.github.io/jsstrn.me/notes/dig-dns-lookup-domain/>
+<a class=next href=https://jsstrn.me/notes/dig-dns-lookup-domain/>
 <span class=title>Next Page »</span>
 <br>
 <span>Dig – DNS lookup utility</span>
@@ -171,7 +171,7 @@ Array.<span style=color:#a6e22e>from</span>({<span style=color:#a6e22e>length</s
 </article>
 </main>
 <footer class=footer>
-<span>&copy; 2021 <a href=https://jsstrn.github.io/jsstrn.me/>Jesstern</a></span>
+<span>&copy; 2021 <a href=https://jsstrn.me/>Jesstern</a></span>
 <span>
 Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
