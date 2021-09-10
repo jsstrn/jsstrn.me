@@ -10,15 +10,19 @@ Hello, my name is Jesstern. My pronouns are [they/them](https://pronoun.is/they/
 
 ## Work
 
-In the early days, I  worked on frameworks like Joomla, WordPress, CakePHP, and Ruby on Rails. These days I mostly work on JavaScript, TypeScript, and Node.js with a keen interest in serverless technologies. 🧑‍💻 
+In the early days, I  worked as on content management systems and on frameworks like CakePHP and Ruby on Rails. 
 
-As a consultant with ThoughtWorks, I've developed bespoke digital solutions with a real estate company, and two financial institutions. 
+These days I mostly work on JavaScript and TypeScript with React. On the backend, I work on Node.js with a keen interest in serverless technologies. 
 
-On top of writing code for a living, I also enjoy teaching. I've taught programming and information technology related topics at Catholic High School, Nanyang Girls' High School, General Assembly, and ThoughtWorks Jumpstart. 🧑‍🏫 
+I've developed bespoke digital solutions with several small and medium companies as well as large enterprises. 🧑‍💻
+
+Besides programming, I also enjoy teaching. I've taught information technology related topics in secondary schools and software development at bootcamps. 🧑‍🏫 
 
 ## Community
 
-I believe it's important give back to the community. I've volunteered at the Singapore chapter of [Junior Dev](https://juniordev.io/) and SingaporeJS. I've taught at [Code in the Community](https://codeinthecommunity.com/), an initiative by Google and the Singaporean government, as a volunteer instructor for children of disadvantaged backgrounds.
+I believe it's important to give back to the community. I've volunteered at the Singapore chapter of [Junior Dev](https://juniordev.io/) and SingaporeJS. 
+
+I've taught as a volunteer instructor at [Code in the Community](https://codeinthecommunity.com/), an initiative by Google and the Singaporean government, for children of disadvantaged backgrounds. 💞
 
 ## Hobbies
 
@@ -37,3 +41,5 @@ Everything on this site is [searchable](/search) or simply explore [tags](/tags)
 ---
 
 Thank you for visiting my website and I hope you have a splendid day ahead.
+
+-- Jessten
