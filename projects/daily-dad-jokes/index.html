@@ -22,11 +22,12 @@
 <meta property="og:description" content="How I built an event-driven serverless Telegram bot to deliver dad jokes to you daily">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://jsstrn.github.io/jsstrn.me/projects/daily-dad-jokes/"><meta property="article:section" content="projects">
+<meta property="article:modified_time" content="2021-09-10T00:34:35+08:00">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Daily Dad Jokes">
 <meta name=twitter:description content="How I built an event-driven serverless Telegram bot to deliver dad jokes to you daily">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Projects","item":"https://jsstrn.github.io/jsstrn.me/projects/"},{"@type":"ListItem","position":2,"name":"Daily Dad Jokes","item":"https://jsstrn.github.io/jsstrn.me/projects/daily-dad-jokes/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Daily Dad Jokes","name":"Daily Dad Jokes","description":"How I built an event-driven serverless Telegram bot to deliver dad jokes to you daily","keywords":["telegram","telegraf","chatbot"],"articleBody":"I created a Telegram channel to deliver dad jokes every day. I did not want to build a Node.js server and host it on Digital Ocean or Linode because that would be cost inefficient. Instead, I wanted to build an event-driven serverless architecture. We can achieve this with AWS Lambda for the lambda functions and AWS CloudWatch to trigger the lambda through scheduled events.\nFirst I created a bot and added it to a channel. The bot fetches a dad joke from icanhazdadjoke.com and publishes it to the channel. The last step was to trigger the lambda function on a regular schedule.\nYou can visit the Daily Dad Jokes public channel or subscribe to the channel on Telegram.\n","wordCount":"118","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"0001-01-01T00:00:00Z","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.github.io/jsstrn.me/projects/daily-dad-jokes/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.github.io/jsstrn.me/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Daily Dad Jokes","name":"Daily Dad Jokes","description":"How I built an event-driven serverless Telegram bot to deliver dad jokes to you daily","keywords":["telegram","telegraf","chatbot"],"articleBody":"I created a Telegram channel to deliver dad jokes every day. I did not want to build a Node.js server and host it on Digital Ocean or Linode because that would be cost inefficient. Instead, I wanted to build an event-driven serverless architecture. We can achieve this with AWS Lambda for the lambda functions and AWS CloudWatch to trigger the lambda through scheduled events.\nFirst I created a bot and added it to a channel. The bot fetches a dad joke from icanhazdadjoke.com and publishes it to the channel. The last step was to trigger the lambda function on a regular schedule.\nYou can visit the Daily Dad Jokes public channel or subscribe to the channel on Telegram.\n","wordCount":"118","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-09-10T00:34:35+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.github.io/jsstrn.me/projects/daily-dad-jokes/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.github.io/jsstrn.me/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -112,13 +113,6 @@ Daily Dad Jokes
 <li><a href=https://jsstrn.github.io/jsstrn.me/tags/telegraf/>telegraf</a></li>
 <li><a href=https://jsstrn.github.io/jsstrn.me/tags/chatbot/>chatbot</a></li>
 </ul>
-<nav class=paginav>
-<a class=prev href=https://jsstrn.github.io/jsstrn.me/projects/bbc-earth-daily/>
-<span class=title>« Prev Page</span>
-<br>
-<span>BBC Earth Daily</span>
-</a>
-</nav>
 </footer>
 </article>
 </main>
