@@ -28,15 +28,6 @@ menu:
     - name: Blog
       url: blog/
       weight: 5
-    - name: Tags
-      url: tags/
-      weight: 6
-    - name: Categories
-      url: categories/
-      weight: 7
-    - name: Archive
-      url: archives/
-      weight: 8
     - name: Search
       url: search/
       weight: 9
