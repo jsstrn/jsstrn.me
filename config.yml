@@ -1,7 +1,6 @@
 theme: PaperMod
 
-# baseURL: "https://jsstrn.me/"
-baseURL: "https://jsstrn.github.io/jsstrn.me/"
+baseURL: "https://jsstrn.me/"
 languageCode: en-us
 title: Jesstern
 
