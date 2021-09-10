@@ -6,6 +6,7 @@ languageCode: en-us
 title: Jesstern
 
 paginate: 5
+enableGitInfo: true
 
 taxonomies:
   category: categories
