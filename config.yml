@@ -1,8 +1,8 @@
-theme: PaperMod
-
-baseURL: "https://jsstrn.me/"
-languageCode: en-us
 title: Jesstern
+
+theme: PaperMod
+languageCode: en-us
+baseURL: "https://jsstrn.me/"
 
 paginate: 5
 enableGitInfo: true
