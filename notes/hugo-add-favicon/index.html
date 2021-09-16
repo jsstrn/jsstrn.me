@@ -7,7 +7,7 @@
 <meta name=keywords content="hugo">
 <meta name=description content="How to add a favicon to a Hugo site">
 <meta name=author content="Jesstern Rays">
-<link rel=canonical href=https://jsstrn.me/notes/hugo-favicon/>
+<link rel=canonical href=https://jsstrn.me/notes/hugo-add-favicon/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.9f1d947375927e9847272b1f4e9be81336f539e513bf04d52cade31f81cad1af.css integrity="sha256-nx2Uc3WSfphHJysfTpvoEzb1OeUTvwTVLK3jH4HK0a8=" rel="preload stylesheet" as=style>
 <script defer crossorigin=anonymous src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
 <link rel=icon href=https://jsstrn.me/favicon.ico>
@@ -21,13 +21,13 @@
 <meta property="og:title" content="Add a favicon to a Hugo site">
 <meta property="og:description" content="How to add a favicon to a Hugo site">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://jsstrn.me/notes/hugo-favicon/"><meta property="article:section" content="notes">
-<meta property="article:modified_time" content="2021-09-10T19:16:20+08:00">
+<meta property="og:url" content="https://jsstrn.me/notes/hugo-add-favicon/"><meta property="article:section" content="notes">
+<meta property="article:modified_time" content="2021-09-16T14:03:50+08:00">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Add a favicon to a Hugo site">
 <meta name=twitter:description content="How to add a favicon to a Hugo site">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Notes","item":"https://jsstrn.me/notes/"},{"@type":"ListItem","position":2,"name":"Add a favicon to a Hugo site","item":"https://jsstrn.me/notes/hugo-favicon/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Add a favicon to a Hugo site","name":"Add a favicon to a Hugo site","description":"How to add a favicon to a Hugo site","keywords":["hugo"],"articleBody":"First, you’ll need to create a favicon for your site, then drop the favicon.ico file into the static folder of your Hugo site. Build the project with the hugo command and publish.\n","wordCount":"32","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-09-10T19:16:20+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/hugo-favicon/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Notes","item":"https://jsstrn.me/notes/"},{"@type":"ListItem","position":2,"name":"Add a favicon to a Hugo site","item":"https://jsstrn.me/notes/hugo-add-favicon/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Add a favicon to a Hugo site","name":"Add a favicon to a Hugo site","description":"How to add a favicon to a Hugo site","keywords":["hugo"],"articleBody":"First, create a favicon at favicon.io for your site. This will create the following files:\n android-chrome-192x192.png android-chrome-512x512.png apple-touch-icon.png favicon-16x16.png favicon-32x32.png favicon.ico  Drop these files into the static folder of your Hugo site. Build the project with the hugo command and publish.\n","wordCount":"41","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-09-16T14:03:50+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/hugo-add-favicon/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -88,7 +88,16 @@ Add a favicon to a Hugo site
 <div class=post-meta>1 min&nbsp;·&nbsp;Jesstern Rays
 </div>
 </header>
-<div class=post-content><p>First, you&rsquo;ll need to <a href=https://favicon.io/>create a favicon</a> for your site, then drop the <code>favicon.ico</code> file into the <code>static</code> folder of your Hugo site. Build the project with the <code>hugo</code> command and publish.</p>
+<div class=post-content><p>First, create a favicon at <a href=https://favicon.io/>favicon.io</a> for your site. This will create the following files:</p>
+<ul>
+<li>android-chrome-192x192.png</li>
+<li>android-chrome-512x512.png</li>
+<li>apple-touch-icon.png</li>
+<li>favicon-16x16.png</li>
+<li>favicon-32x32.png</li>
+<li>favicon.ico</li>
+</ul>
+<p>Drop these files into the <code>static</code> folder of your Hugo site. Build the project with the <code>hugo</code> command and publish.</p>
 </div>
 <footer class=post-footer>
 <ul class=post-tags>
