@@ -22,12 +22,12 @@
 <meta property="og:description" content="How to merge two or more arrays in JavaScript">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://jsstrn.me/notes/js-merge-arrays/"><meta property="article:section" content="notes">
-<meta property="article:modified_time" content="2021-09-10T19:16:20+08:00">
+<meta property="article:modified_time" content="2021-09-16T13:44:52+08:00">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Merging arrays in JavaScript without duplicates">
 <meta name=twitter:description content="How to merge two or more arrays in JavaScript">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Notes","item":"https://jsstrn.me/notes/"},{"@type":"ListItem","position":2,"name":"Merging arrays in JavaScript without duplicates","item":"https://jsstrn.me/notes/js-merge-arrays/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Merging arrays in JavaScript without duplicates","name":"Merging arrays in JavaScript without duplicates","description":"How to merge two or more arrays in JavaScript","keywords":["javascript"],"articleBody":"Let’s say we have these two arrays that we would like to merge together.\nconst a = [1, 2, 3] const b = [3, 4, 5] One approach is to use .concat\nconst c = a.concat(b) // = [1, 2, 3, 3, 4, 5] Another approach is to use destructuring\nconst c = [...a, ...b] // = [1, 2, 3, 3, 4, 5] The problem is that there are duplicates in the merge. To ensure that there are no duplicates, we can use a Set.\nconst c = new Set([...a, ...b]) // = [1, 2, 3, 4, 5] However, now c is a Set instead of an Array.\nArray.isArray(c) // = false To solve this, we can convert a Set into an Array with Array.from\nconst c = Array.from(new Set([...a, ...b])) // = [1, 2, 3, 4, 5] Another way is to simply use the spread operator\nconst c = [...(new Set([...a, ...b]))] // = [1, 2, 3, 4, 5] ","wordCount":"160","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-09-10T19:16:20+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/js-merge-arrays/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Merging arrays in JavaScript without duplicates","name":"Merging arrays in JavaScript without duplicates","description":"How to merge two or more arrays in JavaScript","keywords":["javascript"],"articleBody":"TLDR; ⚠️ Note that this merge method will NOT work for an array of objects\nconst a = [1, 2, 3] const b = [3, 4, 5] const c = [...(new Set([...a, ...b]))] // = [1, 2, 3, 4, 5] Breakdown of steps\n// merge with duplicates const m = [...a, ...b] // = [1, 2, 3, 3, 4, 5]  // remove duplicates with set const s = new Set(m) // = Set [1, 2, 3, 4, 5]  // convert set to array const c = [...s] // = [1, 2, 3, 4, 5] Explanation Let’s say we have these two arrays that we would like to merge together.\nconst a = [1, 2, 3] const b = [3, 4, 5] One approach is to use .concat\nconst c = a.concat(b) // = [1, 2, 3, 3, 4, 5] Another approach is to use destructuring\nconst c = [...a, ...b] // = [1, 2, 3, 3, 4, 5] In both cases, the problem is that there are duplicates in the merge. To ensure that there are no duplicates, we can use a Set.\nconst c = new Set([...a, ...b]) // = [1, 2, 3, 4, 5] However, now c is a Set instead of an Array.\nArray.isArray(c) // = false To solve this, we can convert a Set into an Array with Array.from\nconst c = Array.from(new Set([...a, ...b])) // = [1, 2, 3, 4, 5] Another way is to simply use the spread operator\nconst c = [...(new Set([...a, ...b]))] // = [1, 2, 3, 4, 5] ","wordCount":"258","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-09-16T13:44:52+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/js-merge-arrays/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -85,17 +85,47 @@
 <h1 class=post-title>
 Merging arrays in JavaScript without duplicates
 </h1>
-<div class=post-meta>1 min&nbsp;·&nbsp;Jesstern Rays
+<div class=post-meta>2 min&nbsp;·&nbsp;Jesstern Rays
 </div>
-</header>
-<div class=post-content><p>Let&rsquo;s say we have these two arrays that we would like to merge together.</p>
+</header> <div class=toc>
+<details>
+<summary accesskey=c title="(Alt + C)">
+<span class=details>Table of Contents</span>
+</summary>
+<div class=inner><ul>
+<li>
+<a href=#tldr aria-label=TLDR;>TLDR;</a></li>
+<li>
+<a href=#explanation aria-label=Explanation>Explanation</a>
+</li>
+</ul>
+</div>
+</details>
+</div>
+<div class=post-content><h2 id=tldr>TLDR;<a hidden class=anchor aria-hidden=true href=#tldr>#</a></h2>
+<p>⚠️ Note that this merge method will NOT work for an array of objects</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>a</span> <span style=color:#f92672>=</span> [<span style=color:#ae81ff>1</span>, <span style=color:#ae81ff>2</span>, <span style=color:#ae81ff>3</span>]
+<span style=color:#66d9ef>const</span> <span style=color:#a6e22e>b</span> <span style=color:#f92672>=</span> [<span style=color:#ae81ff>3</span>, <span style=color:#ae81ff>4</span>, <span style=color:#ae81ff>5</span>]
+
+<span style=color:#66d9ef>const</span> <span style=color:#a6e22e>c</span> <span style=color:#f92672>=</span> [...(<span style=color:#66d9ef>new</span> <span style=color:#a6e22e>Set</span>([...<span style=color:#a6e22e>a</span>, ...<span style=color:#a6e22e>b</span>]))] <span style=color:#75715e>// =&gt; [1, 2, 3, 4, 5]
+</span></code></pre></div><p>Breakdown of steps</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=color:#75715e>// merge with duplicates
+</span><span style=color:#75715e></span><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>m</span> <span style=color:#f92672>=</span> [...<span style=color:#a6e22e>a</span>, ...<span style=color:#a6e22e>b</span>] <span style=color:#75715e>// =&gt; [1, 2, 3, 3, 4, 5]
+</span><span style=color:#75715e></span>
+<span style=color:#75715e>// remove duplicates with set
+</span><span style=color:#75715e></span><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>s</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>Set</span>(<span style=color:#a6e22e>m</span>) <span style=color:#75715e>// =&gt; Set [1, 2, 3, 4, 5]
+</span><span style=color:#75715e></span>
+<span style=color:#75715e>// convert set to array
+</span><span style=color:#75715e></span><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>c</span> <span style=color:#f92672>=</span> [...<span style=color:#a6e22e>s</span>] <span style=color:#75715e>// =&gt; [1, 2, 3, 4, 5]
+</span></code></pre></div><h2 id=explanation>Explanation<a hidden class=anchor aria-hidden=true href=#explanation>#</a></h2>
+<p>Let&rsquo;s say we have these two arrays that we would like to merge together.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>a</span> <span style=color:#f92672>=</span> [<span style=color:#ae81ff>1</span>, <span style=color:#ae81ff>2</span>, <span style=color:#ae81ff>3</span>]
 <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>b</span> <span style=color:#f92672>=</span> [<span style=color:#ae81ff>3</span>, <span style=color:#ae81ff>4</span>, <span style=color:#ae81ff>5</span>]
 </code></pre></div><p>One approach is to use <code>.concat</code></p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>c</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>a</span>.<span style=color:#a6e22e>concat</span>(<span style=color:#a6e22e>b</span>) <span style=color:#75715e>// =&gt; [1, 2, 3, 3, 4, 5]
 </span></code></pre></div><p>Another approach is to use <a href=https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment>destructuring</a></p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>c</span> <span style=color:#f92672>=</span> [...<span style=color:#a6e22e>a</span>, ...<span style=color:#a6e22e>b</span>] <span style=color:#75715e>// =&gt; [1, 2, 3, 3, 4, 5]
-</span></code></pre></div><p>The problem is that there are duplicates in the merge. To ensure that there are no duplicates, we can use a <a href=https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set>Set</a>.</p>
+</span></code></pre></div><p>In both cases, the problem is that there are duplicates in the merge. To ensure that there are no duplicates, we can use a <a href=https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set>Set</a>.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>c</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>new</span> <span style=color:#a6e22e>Set</span>([...<span style=color:#a6e22e>a</span>, ...<span style=color:#a6e22e>b</span>]) <span style=color:#75715e>// =&gt; [1, 2, 3, 4, 5]
 </span></code></pre></div><p>However, now <code>c</code> is a Set instead of an Array.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js>Array.<span style=color:#a6e22e>isArray</span>(<span style=color:#a6e22e>c</span>) <span style=color:#75715e>// =&gt; false
@@ -115,10 +145,10 @@ Merging arrays in JavaScript without duplicates
 <br>
 <span>Limit number of open editors in VS Code</span>
 </a>
-<a class=next href=https://jsstrn.me/notes/adage-parkinson-law/>
+<a class=next href=https://jsstrn.me/notes/nato-phonetic-alphabet/>
 <span class=title>Next Page »</span>
 <br>
-<span>Parkinson’s Law</span>
+<span>NATO phonetic alphabet</span>
 </a>
 </nav>
 </footer>
