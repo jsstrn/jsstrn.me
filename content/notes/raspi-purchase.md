@@ -1,6 +1,5 @@
 ---
 title: "Buying a Raspberry Pi"
-date: 2021-09-05T01:21:42+08:00
 summary: "Tips on how to buy your first Raspberry Pi"
 
 tags: ["raspberry pi"]

@@ -1,6 +1,5 @@
 ---
 title: "Which mechanical keyboard switch should I choose?"
-date: 2021-09-05T01:21:42+08:00
 summary: "Choosing between the different types of mechanical keyboard switches?"
 
 tags: ["keyboards"]
