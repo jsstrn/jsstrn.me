@@ -19,15 +19,9 @@ menu:
     - name: About
       url: about/
       weight: 2
-    - name: Notes
-      url: notes/
+    - name: Tags
+      url: tags/
       weight: 3
-    - name: Projects
-      url: projects/
-      weight: 4
-    - name: Blog
-      url: blog/
-      weight: 5
     - name: Search
       url: search/
       weight: 9
