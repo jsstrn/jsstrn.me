@@ -2,7 +2,7 @@
 title: "Watch for file changes as you run your tests"
 summary: "How to run your tests as your files change in Jest"
 
-tags: ["jest", "testing", "javascript"]
+tags: ["jest", "software testing", "javascript"]
 categories: ["software engineering"]
 ---
 

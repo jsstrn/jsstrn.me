@@ -2,7 +2,7 @@
 title: "Run Jest tests that match a describe block"
 summary: "How to run tests that only match the name in the describe block"
 
-tags: ["jest", "testing", "javascript"]
+tags: ["jest", "software testing", "javascript"]
 categories: ["software engineering"]
 ---
 
