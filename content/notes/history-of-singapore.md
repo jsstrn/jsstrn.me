@@ -6,4 +6,4 @@ tags: ["history", "singapore", "resource"]
 categories: []
 ---
 
-[History of Singapore](https://soundcloud.com/historysg/sets/the-history-of-singapore) as narrated by Oxford Historian, PJ Thum, in this 50 episode podcast series. 
+[History of Singapore](https://soundcloud.com/historysg/sets/the-history-of-singapore) is a podcast series narrated by Oxford historian, Dr Thum Ping Tjin, better known as PJ Thum. 
