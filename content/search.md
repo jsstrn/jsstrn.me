@@ -1,6 +1,7 @@
 ---
 title: "Search"
-layout: "search"
 summary: "search"
+
 url: "/search"
+layout: "search"
 ---

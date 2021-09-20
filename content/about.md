@@ -1,7 +1,7 @@
 ---
 title: "About"
 
-ShowToc: false
+searchHidden: true
 ShowBreadCrumbs: false
 ShowReadingTime: false
 ---

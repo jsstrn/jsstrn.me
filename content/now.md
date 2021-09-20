@@ -2,7 +2,7 @@
 title: "Now"
 lastmod: .Lastmod
 
-ShowToc: false
+searchHidden: true
 ShowBreadCrumbs: false
 ShowReadingTime: false
 ---
