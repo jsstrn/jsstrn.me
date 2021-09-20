@@ -77,19 +77,7 @@ Set the lower and upper bound limits of a variable in JavaScript
 </h1>
 <div class=post-meta>1 min&nbsp;·&nbsp;Jesstern Rays
 </div>
-</header> <div class=toc>
-<details>
-<summary accesskey=c title="(Alt + C)">
-<span class=details>Table of Contents</span>
-</summary>
-<div class=inner><ul>
-<li>
-<a href=#reference aria-label=Reference>Reference</a>
-</li>
-</ul>
-</div>
-</details>
-</div>
+</header>
 <div class=post-content><p>Here we want to create functions that allow us to count up and down a variable with a lower bound of 0.</p>
 <p>We can achieve this easily with <code>Math.max()</code> which returns the higher of two values. So now if count falls below 0 it will default to 0 because <code>Math.max(-1, 0)</code> is 0.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=color:#a6e22e>countDown</span> <span style=color:#f92672>=</span> (<span style=color:#a6e22e>count</span>, <span style=color:#a6e22e>min</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>) =&gt; Math.<span style=color:#a6e22e>max</span>(<span style=color:#a6e22e>count</span> <span style=color:#f92672>-</span> <span style=color:#ae81ff>1</span>, <span style=color:#a6e22e>min</span>)
