@@ -1,7 +1,6 @@
 ---
 title: "Beware the lame JavaScript interview question"
 date: 2021-09-05T01:21:42+08:00
-summary: "Here's an example of a lame JavaScript interview question"
 
 tags: ["interviews"]
 categories: ["software engineering"]

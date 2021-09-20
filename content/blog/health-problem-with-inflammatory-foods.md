@@ -1,6 +1,5 @@
 ---
 title: "The problem with inflammatory foods"
-summary: ""
 date: 2021-09-14T12:19:40+08:00
 
 tags: ["health", "diet", "food"]
