@@ -15,4 +15,4 @@ I'm building a chatbot for artists to sell their music.
 
 --- 
 
-This page was last updated on {{< today >}} in Telok Blangah, Singapore.
+This page was last updated on 20 Sep 2021 in Telok Blangah, Singapore.
