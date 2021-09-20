@@ -30,7 +30,9 @@ params:
   author: "Jesstern Rays"
   defaultTheme: auto
 
-  ShowToc: true
+  ShowToc: false
+  TocOpen: false
+
   ShowBreadCrumbs: true
   ShowReadingTime: true
   ShowPostNavLinks: true
