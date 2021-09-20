@@ -34,12 +34,12 @@ My favorite way to consume information is by listening to podcasts and audiobook
 
 This site is built with Hugo and hosted on GitHub Pages. 
 
-You can read my [blog](/blog) where I occassionally post stuff. I also have a collection of short [notes](/notes) that I keep as a reference or have a look at the [projects](/projects) I've built.
+I have a collection of short [notes](/notes) that I keep as a reference. You can read my [blog](/blog) where I occasionally post stuff or have a look at the [projects](/projects) I've built.
 
-Everything on this site is [searchable](/search) or simply explore [tags](/tags) and [categories](/categories).
+Most of the content on this site is [searchable](/search) or you can explore [tags](/tags) and [categories](/categories).
 
 ---
 
-Thank you for visiting my website and I hope you have a splendid day ahead.
+Thank you for visiting my website. Have a beautiful day! 🌤
 
--- Jessten
+-- Jesstern
