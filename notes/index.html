@@ -118,6 +118,20 @@
 </article>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Avoid using toBeTruthy() and toBeFalsy() matchers
+</h2>
+</header>
+<section class=entry-content>
+<p>Test assertions should be explicit.
+If I’m trying to assert that something should be true I avoid using the toBeTruthy() matcher.
+It’s important to realize that in JavaScript, all values are truthy unless they are defined as falsy. This means that as long as result is not a falsy value (e.g. false, "", null, undefined, NaN, etc.), the assertion will pass.
+expect(result).toBeTruthy() // passes if result is {} or [] or 1 Contrast it with this approach where result will only pass if its value is true....</p>
+</section>
+<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
+<a class=entry-link aria-label="post link to Avoid using toBeTruthy() and toBeFalsy() matchers" href=https://jsstrn.me/notes/jest-avoid-tobetruthy-tobefalsy/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Buying a Raspberry Pi
 </h2>
 </header>
@@ -171,17 +185,6 @@
 <footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
 <a class=entry-link aria-label="post link to Dig – DNS lookup utility" href=https://jsstrn.me/notes/dig-dns-lookup-domain/></a>
 </article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exit a Bash script on error
-</h2>
-</header>
-<section class=entry-content>
-<p>How to exit a Bash script when any command fails</p>
-</section>
-<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Exit a Bash script on error" href=https://jsstrn.me/notes/bash-exit-on-error/></a>
-</article>
 <footer class=page-footer>
 <nav class=pagination>
 <a class=next href=https://jsstrn.me/notes/page/2/>Next Page »</a>
@@ -189,7 +192,7 @@
 </footer>
 </main>
 <footer class=footer>
-<span>&copy; 2021 Jesstern Rays</span>
+<span>Copyright &copy; 2021 Jesstern Rays</span>
 </footer>
 <a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
 </a>
