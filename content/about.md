@@ -6,17 +6,13 @@ ShowBreadCrumbs: false
 ShowReadingTime: false
 ---
 
-Hello, my name is Jesstern. My pronouns are [they/them](https://pronoun.is/they/). I live in Singapore where I work as a software engineer. 
+Hello, my name is Jesstern. I live in Singapore where I work as a software engineer. 
 
 ## Work
 
-In the early days, I  worked as on content management systems and on frameworks like CakePHP and Ruby on Rails. 
+I am currently exploring new opportunities. 
 
-These days I mostly work on JavaScript and TypeScript with React. On the backend, I work on Node.js with a keen interest in serverless technologies. 
-
-I've developed bespoke digital solutions with several small and medium companies as well as large enterprises. 🧑‍💻
-
-Besides programming, I also enjoy teaching. I've taught information technology related topics in secondary schools and software development at bootcamps. 🧑‍🏫 
+I was previously at [Thoughtworks](https://www.thoughtworks.com/) as a software engineer and consultant where I worked with several small and medium companies as well as large enterprises. Prior to that I developed software with various content management systems and frameworks. 🧑‍💻
 
 ## Community
 
