@@ -13,12 +13,6 @@ taxonomies:
 
 menu:
   main:
-    - name: Notes
-      url: notes/
-      weight: 1
-    - name: Blog
-      url: blog/
-      weight: 2
     - name: Tags
       url: tags/
       weight: 3
