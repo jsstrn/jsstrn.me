@@ -13,9 +13,12 @@ taxonomies:
 
 menu:
   main:
+    - name: About
+      url: about/
+      weight: 1
     - name: Tags
       url: tags/
-      weight: 3
+      weight: 2
     - name: Search
       url: search/
       weight: 99
@@ -40,13 +43,6 @@ params:
     imageWidth: 150
     imageHeight: 150
     imageTitle: "Jesstern Rays"
-    buttons:
-        - name: Now
-          url: now
-        - name: About
-          url: about
-        - name: FAQ
-          url: faq
 
   homeInfoParams:
     Title: "Hello, I'm Jesstern! 👋"
