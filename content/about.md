@@ -32,9 +32,9 @@ My favorite way to consume information is by listening to podcasts and audiobook
 
 This site is built using [Hugo](https://gohugo.io/) with the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme and hosted on [GitHub](https://pages.github.com/). 
 
-I have a collection of short [notes](/notes) that I keep as a reference for mostly software engineering related topics. I occasionally post on my [blog](/blog) or [projects](/projects) I've built. I also have a small collection of [recipes](/recipes).
+There's a collection of short [notes](/notes) that I keep as a reference, occasional posts on my [blog](/blog), [projects](/projects) I've built, some simple [recipes](/recipes), and my [favorite](/favorites) things.
 
-Most of the content on this site is [searchable](/search) or you can explore [tags](/tags) and [categories](/categories).
+Most of the content on this site is [searchable](/search) or you can explore [tags](/tags).
 
 ---
 
