@@ -1,6 +1,7 @@
 ---
 date: {{ .Date }}
 title: "{{ replace .Name "-" " " | title }}"
+summary: "My vegan recipe for ..."
 
 draft: true
 
