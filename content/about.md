@@ -12,7 +12,7 @@ Hello, my name is Jesstern. I live in Singapore where I work as a software engin
 
 I am currently exploring new opportunities. 
 
-I work on both frontend and backend web development with software testing and high test coverage. I am a proponent of test driven development and pair programming which is part of [extreme programming](http://www.extremeprogramming.org/rules.html).
+I work on both frontend and backend web development with software testing and high test coverage. I am a proponent of test driven development and pair programming which is part of [extreme programming](/notes/agile-extreme-programming).
 
 I was previously at [Thoughtworks](https://www.thoughtworks.com/) as a software engineer and consultant where I worked with several small and medium companies as well as large enterprises. Prior to that I developed software with various content management systems and frameworks. 🧑‍💻
 
@@ -33,6 +33,8 @@ My favorite way to consume information is by listening to podcasts and audiobook
 This site is built using [Hugo](https://gohugo.io/) with the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme and hosted on [GitHub](https://pages.github.com/). 
 
 There's a collection of short [notes](/notes) that I keep as a reference, occasional posts on my [blog](/blog), [projects](/projects) I've built, some simple [recipes](/recipes), and my [favorite](/favorites) things.
+
+Read more about what I'm up to right [now](/now) or if you have questions, check out [FAQ](/faq).
 
 Most of the content on this site is [searchable](/search) or you can explore [tags](/tags).
 
