@@ -4,6 +4,6 @@ title: "{{ replace .Name "-" " " | title }}"
 draft: true
 
 tags: []
-categories: []
+categories: ["software engineering"]
 ---
 
