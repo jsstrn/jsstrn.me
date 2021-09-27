@@ -2,8 +2,6 @@
 date: 2021-09-27T23:19:05+08:00
 title: "Chinese style stir fried vegetables"
 
-draft: true
-
 ShowToc: true
 TocOpen: true
 
