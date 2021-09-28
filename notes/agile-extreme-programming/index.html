@@ -3,11 +3,13 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
-<title>Getting started with Pi-hole | Jesstern</title>
-<meta name=keywords content="raspberry pi,pi-hole">
-<meta name=description content="Using Pi-hole to block ads">
+<title>Extreme Programming | Jesstern</title>
+<meta name=keywords content="agile">
+<meta name=description content="Extreme Programming (XP) adopts an iterative development process with iteration and release planning meetings centered around user stories.
+XP emphasizes writing software with test driven development, pair programming, and continuous integration.
+Reference  Introducing Extreme Programming  ">
 <meta name=author content="Jesstern Rays">
-<link rel=canonical href=https://jsstrn.me/notes/raspi-pi-hole/>
+<link rel=canonical href=https://jsstrn.me/notes/agile-extreme-programming/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.9f1d947375927e9847272b1f4e9be81336f539e513bf04d52cade31f81cad1af.css integrity="sha256-nx2Uc3WSfphHJysfTpvoEzb1OeUTvwTVLK3jH4HK0a8=" rel="preload stylesheet" as=style>
 <script defer crossorigin=anonymous src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
 <link rel=icon href=https://jsstrn.me/favicon.ico>
@@ -18,16 +20,20 @@
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.88.1">
-<meta property="og:title" content="Getting started with Pi-hole">
-<meta property="og:description" content="Using Pi-hole to block ads">
+<meta property="og:title" content="Extreme Programming">
+<meta property="og:description" content="Extreme Programming (XP) adopts an iterative development process with iteration and release planning meetings centered around user stories.
+XP emphasizes writing software with test driven development, pair programming, and continuous integration.
+Reference  Introducing Extreme Programming  ">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://jsstrn.me/notes/raspi-pi-hole/"><meta property="article:section" content="notes">
-<meta property="article:modified_time" content="2021-09-10T19:16:20+08:00">
+<meta property="og:url" content="https://jsstrn.me/notes/agile-extreme-programming/"><meta property="article:section" content="notes">
+<meta property="article:modified_time" content="2021-09-28T22:33:38+08:00">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Getting started with Pi-hole">
-<meta name=twitter:description content="Using Pi-hole to block ads">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Notes","item":"https://jsstrn.me/notes/"},{"@type":"ListItem","position":2,"name":"Getting started with Pi-hole","item":"https://jsstrn.me/notes/raspi-pi-hole/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Getting started with Pi-hole","name":"Getting started with Pi-hole","description":"Using Pi-hole to block ads","keywords":["raspberry pi","pi-hole"],"articleBody":"Pi-hole is a domain name server that serves as a network-wide ad blocker.\nThe main idea is to run Pi-hole on a Raspberry Pi and point our router to use it as its DNS. All traffic is then directed through Pi-hole where we can manage white and black lists.\n","wordCount":"49","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-09-10T19:16:20+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/raspi-pi-hole/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon.ico"}}}</script>
+<meta name=twitter:title content="Extreme Programming">
+<meta name=twitter:description content="Extreme Programming (XP) adopts an iterative development process with iteration and release planning meetings centered around user stories.
+XP emphasizes writing software with test driven development, pair programming, and continuous integration.
+Reference  Introducing Extreme Programming  ">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Notes","item":"https://jsstrn.me/notes/"},{"@type":"ListItem","position":2,"name":"Extreme Programming","item":"https://jsstrn.me/notes/agile-extreme-programming/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Extreme Programming","name":"Extreme Programming","description":"Extreme Programming (XP) adopts an iterative development process with iteration and release planning meetings centered around user stories.\nXP emphasizes writing software with test driven development, pair programming, and continuous integration.\nReference  Introducing Extreme Programming  ","keywords":["agile"],"articleBody":"Extreme Programming (XP) adopts an iterative development process with iteration and release planning meetings centered around user stories.\nXP emphasizes writing software with test driven development, pair programming, and continuous integration.\nReference  Introducing Extreme Programming  ","wordCount":"35","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-09-28T22:33:38+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/agile-extreme-programming/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -68,29 +74,32 @@
 <header class=post-header>
 <div class=breadcrumbs><a href=https://jsstrn.me/>Home</a>&nbsp;»&nbsp;<a href=https://jsstrn.me/notes/>Notes</a></div>
 <h1 class=post-title>
-Getting started with Pi-hole
+Extreme Programming
 </h1>
 <div class=post-meta>1 min&nbsp;·&nbsp;Jesstern Rays
 </div>
 </header>
-<div class=post-content><p><a href=https://pi-hole.net/>Pi-hole</a> is a domain name server that serves as a network-wide ad blocker.</p>
-<p>The main idea is to run Pi-hole on a Raspberry Pi and point our router to use it as its DNS. All traffic is then directed through Pi-hole where we can manage white and black lists.</p>
+<div class=post-content><p>Extreme Programming (XP) adopts an iterative development process with iteration and release planning meetings centered around user stories.</p>
+<p>XP emphasizes writing software with <a href=http://www.extremeprogramming.org/rules/testfirst.html>test driven development</a>, <a href=http://www.extremeprogramming.org/rules/pair.html>pair programming</a>, and <a href=http://www.extremeprogramming.org/rules/integrateoften.html>continuous integration</a>.</p>
+<h2 id=reference>Reference<a hidden class=anchor aria-hidden=true href=#reference>#</a></h2>
+<ul>
+<li><a href=http://www.extremeprogramming.org/introduction.html>Introducing Extreme Programming</a></li>
+</ul>
 </div>
 <footer class=post-footer>
 <ul class=post-tags>
-<li><a href=https://jsstrn.me/tags/raspberry-pi/>raspberry pi</a></li>
-<li><a href=https://jsstrn.me/tags/pi-hole/>pi-hole</a></li>
+<li><a href=https://jsstrn.me/tags/agile/>agile</a></li>
 </ul>
 <nav class=paginav>
-<a class=prev href=https://jsstrn.me/notes/agile-extreme-programming/>
+<a class=prev href=https://jsstrn.me/notes/bash-exit-on-error/>
 <span class=title>« Prev Page</span>
 <br>
-<span>Extreme Programming</span>
+<span>Exit a Bash script on error</span>
 </a>
-<a class=next href=https://jsstrn.me/notes/cli-guidelines/>
+<a class=next href=https://jsstrn.me/notes/raspi-pi-hole/>
 <span class=title>Next Page »</span>
 <br>
-<span>Guidelines for building CLI tools</span>
+<span>Getting started with Pi-hole</span>
 </a>
 </nav>
 </footer>
