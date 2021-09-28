@@ -10,11 +10,11 @@
 <link rel=canonical href=https://jsstrn.me/notes/jest-match-name-tests/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.9f1d947375927e9847272b1f4e9be81336f539e513bf04d52cade31f81cad1af.css integrity="sha256-nx2Uc3WSfphHJysfTpvoEzb1OeUTvwTVLK3jH4HK0a8=" rel="preload stylesheet" as=style>
 <script defer crossorigin=anonymous src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
-<link rel=icon href=https://jsstrn.me/favicon.ico>
-<link rel=icon type=image/png sizes=16x16 href=https://jsstrn.me/favicon-16x16.png>
-<link rel=icon type=image/png sizes=32x32 href=https://jsstrn.me/favicon-32x32.png>
-<link rel=apple-touch-icon href=https://jsstrn.me/apple-touch-icon.png>
-<link rel=mask-icon href=https://jsstrn.me/safari-pinned-tab.svg>
+<link rel=icon href=https://jsstrn.me/favicon/favicon.ico>
+<link rel=icon type=image/png sizes=16x16 href=https://jsstrn.me/favicon/favicon-16x16.png>
+<link rel=icon type=image/png sizes=32x32 href=https://jsstrn.me/favicon/favicon-32x32.png>
+<link rel=apple-touch-icon href=https://jsstrn.me/favicon/apple-touch-icon.png>
+<link rel=mask-icon href=https://jsstrn.me/favicon/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.88.1">
@@ -27,7 +27,7 @@
 <meta name=twitter:title content="Run Jest tests that match a describe block">
 <meta name=twitter:description content="How to run tests that only match the name in the describe block">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Notes","item":"https://jsstrn.me/notes/"},{"@type":"ListItem","position":2,"name":"Run Jest tests that match a describe block","item":"https://jsstrn.me/notes/jest-match-name-tests/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Run Jest tests that match a describe block","name":"Run Jest tests that match a describe block","description":"How to run tests that only match the name in the describe block","keywords":["jest","software testing","javascript"],"articleBody":"Very often I come across a situation where I’d like to only run a certain subset of tests in a describe block, usually when I’m trying to debug some code.\nLet’s say the describe block you want to run contains the word “Fizz Buzz”\ndescribe('Fizz Buzz', () = { // your tests here }) You can run all describe blocks that match a regex pattern\njest --testNamePattern 'Fizz Buzz' Or simply use the alias -t instead\njest -t 'Fizz Buzz' Reference: Jest CLI documentation\n","wordCount":"84","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-09-19T00:16:18+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/jest-match-name-tests/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Run Jest tests that match a describe block","name":"Run Jest tests that match a describe block","description":"How to run tests that only match the name in the describe block","keywords":["jest","software testing","javascript"],"articleBody":"Very often I come across a situation where I’d like to only run a certain subset of tests in a describe block, usually when I’m trying to debug some code.\nLet’s say the describe block you want to run contains the word “Fizz Buzz”\ndescribe('Fizz Buzz', () = { // your tests here }) You can run all describe blocks that match a regex pattern\njest --testNamePattern 'Fizz Buzz' Or simply use the alias -t instead\njest -t 'Fizz Buzz' Reference: Jest CLI documentation\n","wordCount":"84","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-09-19T00:16:18+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/jest-match-name-tests/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
