@@ -36,7 +36,7 @@ params:
   ShowCodeCopyButtons: true
 
   profileMode:
-    enabled: true 
+    enabled: true
     title: "Hello, I'm Jesstern! 👋"
     subtitle: "Welcome to my personal digital space."
     imageUrl: "https://avatars.githubusercontent.com/u/1199611?v=4"
@@ -55,6 +55,13 @@ params:
       url: "https://github.com/jsstrn"
     - name: "Email"
       url: "hello@jsstrn.me"
+
+  assets:
+    favicon: "/favicon/favicon.ico"
+    favicon16x16: "/favicon/favicon-16x16.png"
+    favicon32x32: "/favicon/favicon-32x32.png"
+    apple_touch_icon: "/favicon/apple-touch-icon.png"
+    safari_pinned_tab: "/favicon/safari-pinned-tab.svg"
 
 outputs:
   home:
