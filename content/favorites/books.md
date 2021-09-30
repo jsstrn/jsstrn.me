@@ -2,6 +2,8 @@
 title: "Books 📖"
 summary: "A list of my favorite books"
 
+draft: true
+
 ShowToc: true
 TocOpen: true
 ---

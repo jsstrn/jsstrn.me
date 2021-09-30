@@ -1,6 +1,8 @@
 ---
 title: "TV shows 📺"
 summary: "A list of my favorite TV shows"
+
+draft: true
 ---
 
 Here's a non-exhaustive list of my favorite TV shows.
