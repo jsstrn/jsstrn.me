@@ -1,5 +1,5 @@
 ---
-title: "Synology setup Plex media server"
+title: "Setup Plex media server on your Synology NAS server"
 
 tags: ["nas", "synology"]
 categories: ["technology"]
