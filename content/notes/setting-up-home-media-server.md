@@ -19,6 +19,6 @@ The new kid on the block is Jellyfin – an open source fork of Emby.
 
 To install Jellyfin on a Raspberry Pi, you can follow instructions for [Debian](https://jellyfin.org/docs/general/administration/installing.html#debian).
 
-There's even instructions to [install Jellyfin on a Synology NAS server](https://jellyfin.org/docs/general/administration/install/synology.html) with [Docker](https://www.synology.com/en-us/dsm/packages/Docker?os_ver=7.0&search=docker). Just keep in mind that [Docker is only available on DSM 7](https://www.synology.com/en-us/dsm/packages/Docker?os_ver=7.0&search=docker).
+There's even instructions to install Jellyfin on a Synology NAS server with [Docker](https://jellyfin.org/docs/general/administration/install/synology.html). Just keep in mind that you'll need to be on [DSM 7](https://www.synology.com/en-us/dsm/packages/Docker?os_ver=7.0&search=docker).
 
 They support numerous [clients](https://jellyfin.org/clients/), except for Apple TV. For that you have to access your content with third-party applications like Infuse or MrMC.
