@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>productivity on Jesstern</title><link>https://jsstrn.me/tags/productivity/</link><description>Recent content in productivity on Jesstern</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://jsstrn.me/tags/productivity/index.xml" rel="self" type="application/rss+xml"/><item><title>How to download online videos</title><link>https://jsstrn.me/notes/download-online-videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jsstrn.me/notes/download-online-videos/</guid><description>Download the youtube-dl command line tool from brew
+brew install youtube-dl youtube-dl supports a huge list of extractors, including popular sites like YouTube and Vimeo.
+List all extractors and pipe it into grep to search for an extractor
+youtube-dl --list-extractors | grep &amp;#34;udemy&amp;#34; To download a video
+youtube-dl &amp;#34;video-url&amp;#34; Simply pass in the cookie file to download videos that require login credentials
+youtube-dl --cookies &amp;lt;path-to-cookie-file&amp;gt; &amp;#34;video-url&amp;#34; You can use a browser extension like cookie.</description></item></channel></rss>
