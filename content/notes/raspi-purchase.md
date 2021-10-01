@@ -3,7 +3,7 @@ title: "Buying a Raspberry Pi"
 summary: "Tips on how to buy your first Raspberry Pi"
 
 tags: ["raspberry pi"]
-categories: []
+categories: ["technology"]
 ---
 
 There are many different [models of Raspberry Pi](https://www.raspberrypi.org/products/) depending on your needs.

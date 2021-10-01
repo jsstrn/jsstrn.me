@@ -1,7 +1,7 @@
 ---
 title: "How to download online videos"
 
-tags: []
+tags: ["downloads"]
 categories: ["technology"]
 ---
 
