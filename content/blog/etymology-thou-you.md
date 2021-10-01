@@ -1,8 +1,8 @@
 ---
+date: 2021-06-19T21:56:36+08:00
 title: "The etymology of 'thou' and 'you'"
-date: 2021-09-19T21:56:36+08:00
 
-tags: ["language", "etymology"]
+tags: ["language"]
 categories: []
 ---
 

@@ -1,6 +1,6 @@
 ---
+date: 2021-01-05T01:21:42+08:00
 title: "Beware the lame JavaScript interview question"
-date: 2021-09-05T01:21:42+08:00
 
 tags: ["interviews"]
 categories: ["software engineering"]

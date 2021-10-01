@@ -1,11 +1,11 @@
 ---
+date: 2021-10-01T01:26:29+08:00
 title: "Goodbye 1Password"
-date: 2021-09-19T01:26:29+08:00
 
 draft: true
 
 tags: ["password management"]
-categories: ["productivity"]
+categories: ["technology"]
 ---
 
 I've been using 1Password since 2013 and had paid for both their macOS and iOS apps. They've recently moved to a subscription model which I have no problems paying for. Unfortunately, there are some major issues with their new product. 
@@ -26,7 +26,9 @@ In contrast, importing passwords from 1Password into either Enpass or Bitwarden 
 
 ## Desktop app powered by Electron
 
-I've read online that many users are upset that the new desktop app will be powered by [Electron](https://www.electronjs.org/). There may be some concerns over security [vulnerabilities](https://www.cyberscoop.com/electron-remote-code-execution-xss-slack-skype/), but even Signal uses Electron and they seem to manage [fine](https://www.theregister.com/2018/05/14/electron_xss_vulnerability_cve_2018_1000136/) so I'm not terrible concerned about 1Password's move to Electron for their desktop app. 
+I've read online that many users are upset that the new desktop app will be powered by [Electron](https://www.electronjs.org/). 
+
+There may be some concerns over security [vulnerabilities](https://www.cyberscoop.com/electron-remote-code-execution-xss-slack-skype/), but even Signal uses Electron and they seem to manage [fine](https://www.theregister.com/2018/05/14/electron_xss_vulnerability_cve_2018_1000136/) so I'm not terribly concerned about 1Password's move to Electron for their desktop app. 
 
 ## Conclusion
 

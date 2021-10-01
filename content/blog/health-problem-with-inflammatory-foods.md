@@ -1,8 +1,8 @@
 ---
-title: "The problem with inflammatory foods"
 date: 2021-09-14T12:19:40+08:00
+title: "The problem with inflammatory foods"
 
-tags: ["health", "diet", "food"]
+tags: ["health"]
 categories: []
 ---
 
