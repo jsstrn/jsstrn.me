@@ -3,7 +3,7 @@ title: "Which mechanical keyboard switch should I choose?"
 summary: "Choosing between the different types of mechanical keyboard switches?"
 
 tags: ["keyboards"]
-categories: ["productivity"]
+categories: ["technology"]
 ---
 
 There are three main types of switches to choose from: 
