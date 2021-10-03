@@ -1,5 +1,5 @@
 ---
-title: "RealWorld"
+title: "RealWorld example applications"
 summary: "The mother of all demo apps"
 
 tags: ["resources"]
