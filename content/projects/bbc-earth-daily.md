@@ -2,8 +2,7 @@
 title: "BBC Earth Daily"
 summary: "How I built the BBC Earth Daily chatbot"
 
-tags: ["telegram", "telegraf", "chatbot"]
-categories: []
+tags: [projects, chatbot]
 ---
 
 I created a Telegram channel to share videos from the BBC Earth YouTube channel. Since this project did not warrant a server to be up 24/7, I leveraged on a serverless architecture to keep the cost low. I used [AWS Lambda](https://aws.amazon.com/lambda/) for the lambda functions and [AWS CloudWatch](https://aws.amazon.com/cloudwatch/) to trigger the lambda through scheduled events.

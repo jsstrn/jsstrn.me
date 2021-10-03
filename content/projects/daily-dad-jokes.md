@@ -2,8 +2,7 @@
 title: "Daily Dad Jokes"
 summary: "How I built an event-driven serverless Telegram bot to deliver dad jokes to you daily"
 
-tags: ["telegram", "telegraf", "chatbot"]
-categories: []
+tags: [projects, chatbot]
 ---
 
 I created a Telegram channel to deliver dad jokes every day. I did not want to build a Node.js server and host it on Digital Ocean or Linode because that would be cost inefficient. Instead, I wanted to build an event-driven serverless architecture. We can achieve this with [AWS Lambda](https://aws.amazon.com/lambda/) for the lambda functions and [AWS CloudWatch](https://aws.amazon.com/cloudwatch/) to trigger the lambda through scheduled events.
