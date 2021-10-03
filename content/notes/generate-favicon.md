@@ -2,7 +2,7 @@
 title: "Create a favicon for your site"
 summary: "Find or create a suitable favicon for your site"
 
-tags: ["favicon", "resource"]
+tags: ["favicon", "resources"]
 categories: ["software engineering"]
 ---
 

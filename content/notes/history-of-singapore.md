@@ -2,7 +2,7 @@
 title: "History of Singapore"
 summary: "Historian PJ Thum narrates the history of Singapore in this podcast series"
 
-tags: ["history", "singapore", "resource"]
+tags: ["history", "singapore", "resources"]
 categories: []
 ---
 

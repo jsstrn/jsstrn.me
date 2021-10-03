@@ -1,7 +1,7 @@
 ---
-title: "Implementing search functionality"
+title: "Implementing a frontend search functionality"
 
-tags: ["javascript", "resource", "search"]
+tags: ["javascript", "resources"]
 categories: []
 ---
 

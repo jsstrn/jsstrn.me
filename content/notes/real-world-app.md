@@ -2,7 +2,7 @@
 title: "RealWorld"
 summary: "The mother of all demo apps"
 
-tags: ["resource"]
+tags: ["resources"]
 categories: ["software engineering"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Guidelines for building CLI tools"
 summary: "Best practices for building CLI tools"
 
-tags: ["cli", "best practice", "resource"]
+tags: ["cli", "best practices", "resources"]
 categories: ["software engineering"]
 ---
 
