@@ -20,7 +20,7 @@ tags: [recipes, vegan, gluten-free]
 ### Prepare melted butter
 
 - add 1 tbsp of butter into a bowl
-- microwave on high heat for 2 min
+- microwave on high heat for 20 sec
 
 ### Prepare egg substitute
 
@@ -31,7 +31,7 @@ tags: [recipes, vegan, gluten-free]
 You can use chia seeds, if you don't have egg replacer.
 
 - add 1 tbsp of chia seeds into a mixing bowl
-- add 2 tbsp of hot water
+- add 3 tbsp of hot water
 - mix well
 - let stand for 5 min
 
