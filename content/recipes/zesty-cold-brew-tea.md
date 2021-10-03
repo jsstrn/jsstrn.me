@@ -21,9 +21,12 @@ tags: []
 
 ## Preparation 
 
+### Prepare ingredients
 - crush some mint leaves
 - squeeze some fresh lime and lemon juice
 - cut some lime and lemon into wedges
+
+### Prepare cold brew tea
 
 - add two tea bags to a jug of water
 - add crushed mint leaves
