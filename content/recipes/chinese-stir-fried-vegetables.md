@@ -1,5 +1,4 @@
 ---
-date: 2021-09-27T23:19:05+08:00
 title: "Chinese style stir fried vegetables"
 summary: "My recipe for delicious Chinese style stir fried vegetables."
 

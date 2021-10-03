@@ -1,5 +1,4 @@
 ---
-date: 2021-10-03T10:23:16+08:00
 title: "Zesty cold brew tea"
 summary: "My recipe for a refreshing zesty cold brew tea"
 
