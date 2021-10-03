@@ -2,8 +2,6 @@
 title: "Zesty cold brew tea"
 summary: "My recipe for a refreshing zesty cold brew tea"
 
-draft: true
-
 ShowToc: true
 TocOpen: true
 
