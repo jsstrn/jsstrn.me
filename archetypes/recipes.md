@@ -1,5 +1,4 @@
 ---
-date: {{ .Date }}
 title: "{{ replace .Name "-" " " | title }}"
 summary: "My recipe for ..."
 
