@@ -3,13 +3,12 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
-<title>Implementing a frontend search functionality | Jesstern</title>
-<meta name=keywords content="javascript,resources">
-<meta name=description content="Let&rsquo;s say we have an online bookstore where we list all our available books. We want to be able to implement a search bar that can filter out results that match the title, author, publisher, etc.
-Solutions like Algolia, Solr, or Elasticsearch are non-trivial solutions that require quite a bit of configuration and resources. These solutions may also be overkill if you have a small to moderately large dataset.
-We can look at Fuse.">
+<title>List of foods to avoid | Jesstern</title>
+<meta name=keywords content="health">
+<meta name=description content="After tracking my food intake for over a year and monitoring any side effects that I would feel after eating, I&rsquo;ve discovered that I should avoid foods that contain lactose, capsaicin, gluten, alcohol, and caffeine (ranked by order of most severe reaction to least severe reaction).
+Lactose  Milk Cheese Butter Ice-cream Cake Cream Pancake Yoghurt  Capsaicin  Chili Curry  Gluten  Wheat Rye Buckwheat Bread Noodles Ramen Udon Pasta Pancake Waffle Cereal Muesli Granola Cake Beer  Alcohol  Beer Cider Spirits Wine  Caffeine  Coffee Green tea Black tea Chocolate  ">
 <meta name=author content="Jesstern Rays">
-<link rel=canonical href=https://jsstrn.me/notes/js-search-functionality/>
+<link rel=canonical href=https://jsstrn.me/notes/list-of-foods-to-avoid/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.9f1d947375927e9847272b1f4e9be81336f539e513bf04d52cade31f81cad1af.css integrity="sha256-nx2Uc3WSfphHJysfTpvoEzb1OeUTvwTVLK3jH4HK0a8=" rel="preload stylesheet" as=style>
 <script defer crossorigin=anonymous src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
 <link rel=icon href=https://jsstrn.me/favicon/favicon.ico>
@@ -20,20 +19,18 @@ We can look at Fuse.">
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.88.1">
-<meta property="og:title" content="Implementing a frontend search functionality">
-<meta property="og:description" content="Let&rsquo;s say we have an online bookstore where we list all our available books. We want to be able to implement a search bar that can filter out results that match the title, author, publisher, etc.
-Solutions like Algolia, Solr, or Elasticsearch are non-trivial solutions that require quite a bit of configuration and resources. These solutions may also be overkill if you have a small to moderately large dataset.
-We can look at Fuse.">
+<meta property="og:title" content="List of foods to avoid">
+<meta property="og:description" content="After tracking my food intake for over a year and monitoring any side effects that I would feel after eating, I&rsquo;ve discovered that I should avoid foods that contain lactose, capsaicin, gluten, alcohol, and caffeine (ranked by order of most severe reaction to least severe reaction).
+Lactose  Milk Cheese Butter Ice-cream Cake Cream Pancake Yoghurt  Capsaicin  Chili Curry  Gluten  Wheat Rye Buckwheat Bread Noodles Ramen Udon Pasta Pancake Waffle Cereal Muesli Granola Cake Beer  Alcohol  Beer Cider Spirits Wine  Caffeine  Coffee Green tea Black tea Chocolate  ">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://jsstrn.me/notes/js-search-functionality/"><meta property="article:section" content="notes">
-<meta property="article:modified_time" content="2021-10-03T13:08:44+08:00">
+<meta property="og:url" content="https://jsstrn.me/notes/list-of-foods-to-avoid/"><meta property="article:section" content="notes">
+<meta property="article:modified_time" content="2021-10-03T22:15:56+08:00">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Implementing a frontend search functionality">
-<meta name=twitter:description content="Let&rsquo;s say we have an online bookstore where we list all our available books. We want to be able to implement a search bar that can filter out results that match the title, author, publisher, etc.
-Solutions like Algolia, Solr, or Elasticsearch are non-trivial solutions that require quite a bit of configuration and resources. These solutions may also be overkill if you have a small to moderately large dataset.
-We can look at Fuse.">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Notes","item":"https://jsstrn.me/notes/"},{"@type":"ListItem","position":2,"name":"Implementing a frontend search functionality","item":"https://jsstrn.me/notes/js-search-functionality/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Implementing a frontend search functionality","name":"Implementing a frontend search functionality","description":"Let\u0026rsquo;s say we have an online bookstore where we list all our available books. We want to be able to implement a search bar that can filter out results that match the title, author, publisher, etc.\nSolutions like Algolia, Solr, or Elasticsearch are non-trivial solutions that require quite a bit of configuration and resources. These solutions may also be overkill if you have a small to moderately large dataset.\nWe can look at Fuse.","keywords":["javascript","resources"],"articleBody":"Let’s say we have an online bookstore where we list all our available books. We want to be able to implement a search bar that can filter out results that match the title, author, publisher, etc.\nSolutions like Algolia, Solr, or Elasticsearch are non-trivial solutions that require quite a bit of configuration and resources. These solutions may also be overkill if you have a small to moderately large dataset.\nWe can look at Fuse.js and Lunr for a more lightweight solution. Fuse.js is what powers the search engine for this site.\n","wordCount":"91","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-10-03T13:08:44+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/js-search-functionality/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon/favicon.ico"}}}</script>
+<meta name=twitter:title content="List of foods to avoid">
+<meta name=twitter:description content="After tracking my food intake for over a year and monitoring any side effects that I would feel after eating, I&rsquo;ve discovered that I should avoid foods that contain lactose, capsaicin, gluten, alcohol, and caffeine (ranked by order of most severe reaction to least severe reaction).
+Lactose  Milk Cheese Butter Ice-cream Cake Cream Pancake Yoghurt  Capsaicin  Chili Curry  Gluten  Wheat Rye Buckwheat Bread Noodles Ramen Udon Pasta Pancake Waffle Cereal Muesli Granola Cake Beer  Alcohol  Beer Cider Spirits Wine  Caffeine  Coffee Green tea Black tea Chocolate  ">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Notes","item":"https://jsstrn.me/notes/"},{"@type":"ListItem","position":2,"name":"List of foods to avoid","item":"https://jsstrn.me/notes/list-of-foods-to-avoid/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"List of foods to avoid","name":"List of foods to avoid","description":"After tracking my food intake for over a year and monitoring any side effects that I would feel after eating, I\u0026rsquo;ve discovered that I should avoid foods that contain lactose, capsaicin, gluten, alcohol, and caffeine (ranked by order of most severe reaction to least severe reaction).\nLactose  Milk Cheese Butter Ice-cream Cake Cream Pancake Yoghurt  Capsaicin  Chili Curry  Gluten  Wheat Rye Buckwheat Bread Noodles Ramen Udon Pasta Pancake Waffle Cereal Muesli Granola Cake Beer  Alcohol  Beer Cider Spirits Wine  Caffeine  Coffee Green tea Black tea Chocolate  ","keywords":["health"],"articleBody":"After tracking my food intake for over a year and monitoring any side effects that I would feel after eating, I’ve discovered that I should avoid foods that contain lactose, capsaicin, gluten, alcohol, and caffeine (ranked by order of most severe reaction to least severe reaction).\nLactose  Milk Cheese Butter Ice-cream Cake Cream Pancake Yoghurt  Capsaicin  Chili Curry  Gluten  Wheat Rye Buckwheat Bread Noodles Ramen Udon Pasta Pancake Waffle Cereal Muesli Granola Cake Beer  Alcohol  Beer Cider Spirits Wine  Caffeine  Coffee Green tea Black tea Chocolate  ","wordCount":"86","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-10-03T22:15:56+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/list-of-foods-to-avoid/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -74,30 +71,75 @@ We can look at Fuse.">
 <header class=post-header>
 <div class=breadcrumbs><a href=https://jsstrn.me/>Home</a>&nbsp;»&nbsp;<a href=https://jsstrn.me/notes/>Notes</a></div>
 <h1 class=post-title>
-Implementing a frontend search functionality
+List of foods to avoid
 </h1>
 <div class=post-meta>1 min&nbsp;·&nbsp;Jesstern Rays
 </div>
 </header>
-<div class=post-content><p>Let&rsquo;s say we have an online bookstore where we list all our available books. We want to be able to implement a search bar that can filter out results that match the title, author, publisher, etc.</p>
-<p>Solutions like <a href=https://www.algolia.com/>Algolia</a>, <a href=https://solr.apache.org/>Solr</a>, or <a href=https://www.elastic.co/elasticsearch/>Elasticsearch</a> are non-trivial solutions that require quite a bit of configuration and resources. These solutions may also be overkill if you have a small to moderately large dataset.</p>
-<p>We can look at <a href=https://fusejs.io/>Fuse.js</a> and <a href=https://lunrjs.com/>Lunr</a> for a more lightweight solution. Fuse.js is what powers the <a href=/search>search engine</a> for this site.</p>
+<div class=post-content><p>After tracking my food intake for over a year and monitoring any side effects that I would feel after eating, I&rsquo;ve discovered that I should avoid foods that contain lactose, capsaicin, gluten, alcohol, and caffeine (ranked by order of most severe reaction to least severe reaction).</p>
+<h2 id=lactose>Lactose<a hidden class=anchor aria-hidden=true href=#lactose>#</a></h2>
+<ul>
+<li>Milk</li>
+<li>Cheese</li>
+<li>Butter</li>
+<li>Ice-cream</li>
+<li>Cake</li>
+<li>Cream</li>
+<li>Pancake</li>
+<li>Yoghurt</li>
+</ul>
+<h2 id=capsaicin>Capsaicin<a hidden class=anchor aria-hidden=true href=#capsaicin>#</a></h2>
+<ul>
+<li>Chili</li>
+<li>Curry</li>
+</ul>
+<h2 id=gluten>Gluten<a hidden class=anchor aria-hidden=true href=#gluten>#</a></h2>
+<ul>
+<li>Wheat</li>
+<li>Rye</li>
+<li>Buckwheat</li>
+<li>Bread</li>
+<li>Noodles</li>
+<li>Ramen</li>
+<li>Udon</li>
+<li>Pasta</li>
+<li>Pancake</li>
+<li>Waffle</li>
+<li>Cereal</li>
+<li>Muesli</li>
+<li>Granola</li>
+<li>Cake</li>
+<li>Beer</li>
+</ul>
+<h2 id=alcohol>Alcohol<a hidden class=anchor aria-hidden=true href=#alcohol>#</a></h2>
+<ul>
+<li>Beer</li>
+<li>Cider</li>
+<li>Spirits</li>
+<li>Wine</li>
+</ul>
+<h2 id=caffeine>Caffeine<a hidden class=anchor aria-hidden=true href=#caffeine>#</a></h2>
+<ul>
+<li>Coffee</li>
+<li>Green tea</li>
+<li>Black tea</li>
+<li>Chocolate</li>
+</ul>
 </div>
 <footer class=post-footer>
 <ul class=post-tags>
-<li><a href=https://jsstrn.me/tags/javascript/>javascript</a></li>
-<li><a href=https://jsstrn.me/tags/resources/>resources</a></li>
+<li><a href=https://jsstrn.me/tags/health/>health</a></li>
 </ul>
 <nav class=paginav>
-<a class=prev href=https://jsstrn.me/notes/testing-arrange-act-assert/>
+<a class=prev href=https://jsstrn.me/notes/vscode-set-editor-limit/>
 <span class=title>« Prev Page</span>
 <br>
-<span>How to structure your unit tests</span>
+<span>Limit number of open editors in VS Code</span>
 </a>
-<a class=next href=https://jsstrn.me/notes/js-iterate-over-array/>
+<a class=next href=https://jsstrn.me/notes/js-merge-arrays/>
 <span class=title>Next Page »</span>
 <br>
-<span>Iterate over an array in JavaScript</span>
+<span>Merging arrays in JavaScript without duplicates</span>
 </a>
 </nav>
 </footer>
