@@ -11,7 +11,7 @@ _This is a [now](https://nownownow.com/about) page. Here's what I'm focused on a
 
 ## Wave Music
 
-I'm building a chatbot for artists to sell their music. 
+I'm building an application for artists to sell their music. 
 
 --- 
 
