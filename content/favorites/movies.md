@@ -3,6 +3,8 @@ title: "Movies 🍿"
 summary: "A list of my favorite movies"
 
 draft: true
+
+tags: [movies]
 ---
 
 Here's a non-exhaustive list of my favorite movies.

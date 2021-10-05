@@ -3,6 +3,8 @@ title: "TV shows 📺"
 summary: "A list of my favorite TV shows"
 
 draft: true
+
+tags: [tv-shows]
 ---
 
 Here's a non-exhaustive list of my favorite TV shows.

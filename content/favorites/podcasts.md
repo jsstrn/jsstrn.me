@@ -3,6 +3,8 @@ title: "Podcasts 🎧"
 summary: "A list of my favorite podcasts"
 
 draft: true
+
+tags: [podcasts]
 ---
 
 Here's a non-exhaustive list of my favorite podcasts.

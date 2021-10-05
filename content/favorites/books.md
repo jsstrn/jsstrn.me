@@ -6,6 +6,8 @@ draft: true
 
 ShowToc: true
 TocOpen: true
+
+tags: [books]
 ---
 
 Here's a non-exhaustive list of my favorite books.
