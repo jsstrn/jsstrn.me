@@ -18,7 +18,7 @@ git clone --recurse-submodules -j8 git@github.com:jsstrn/jsstrn.me.git
 
 ## Development
 
-Start local server
+Start local server and visit `http://localhost:1313/`
 
 ```sh
 hugo server -D
@@ -28,6 +28,12 @@ Create a new entry
 
 ```sh
 hugo new some-folder/some-title.md
+```
+
+Build your site 
+
+```sh
+hugo
 ```
 
 ## Themes
