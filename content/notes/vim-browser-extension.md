@@ -1,5 +1,5 @@
 ---
-title: "Use Vim Vixen for Vim-like commands in Firefox"
+title: "Use Vim-like commands in Firefox"
 
 tags: [vim, browser extensions]
 categories: [software engineering]
