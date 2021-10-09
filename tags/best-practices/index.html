@@ -75,6 +75,19 @@
 <footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
 <a class=entry-link aria-label="post link to Guidelines for building CLI tools" href=https://jsstrn.me/notes/cli-guidelines/></a>
 </article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>How to structure your unit tests
+</h2>
+</header>
+<section class=entry-content>
+<p>When writing test cases, we can organize our tests into three segments
+Arrange – set variables, stubs, mocks, spies, etc Act – the action that you wish to assert on Assert – make an assertion on the expected and actual results Here’s a simple example:
+test("renders correct number of books", () => { // arrange const books = [ {title: "Animal Farm", author: "George Orwell"}, {title: "Nineteen Eighty-Four", author: "George Orwell"}, {title: "Down and Out in Paris and London", author: "George Orwell"}, ] // act const { queryAllByTestId } = render(&lt;BookList books={books} />); // assert expect(queryAllByTestId('book-item')....</p>
+</section>
+<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
+<a class=entry-link aria-label="post link to How to structure your unit tests" href=https://jsstrn.me/notes/testing-arrange-act-assert/></a>
+</article>
 </main>
 <footer class=footer>
 <span>Copyright &copy; 2021 Jesstern Rays</span>

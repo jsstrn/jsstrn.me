@@ -4,7 +4,7 @@
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
 <title>How to structure your unit tests | Jesstern</title>
-<meta name=keywords content="software testing,best practice">
+<meta name=keywords content="software testing,best practices">
 <meta name=description content="When writing test cases, we can organize our tests into three segments
  Arrange – set variables, stubs, mocks, spies, etc Act – the action that you wish to assert on Assert – make an assertion on the expected and actual results  Here&rsquo;s a simple example:
 test(&#34;renders correct number of books&#34;, () => { // arrange  const books = [ {title: &#34;Animal Farm&#34;, author: &#34;George Orwell&#34;}, {title: &#34;Nineteen Eighty-Four&#34;, author: &#34;George Orwell&#34;}, {title: &#34;Down and Out in Paris and London&#34;, author: &#34;George Orwell&#34;}, ] // act  const { queryAllByTestId } = render(<BookList books={books} />); // assert  expect(queryAllByTestId('book-item').">
@@ -26,14 +26,14 @@ test(&#34;renders correct number of books&#34;, () => { // arrange  const books 
 test(&#34;renders correct number of books&#34;, () => { // arrange  const books = [ {title: &#34;Animal Farm&#34;, author: &#34;George Orwell&#34;}, {title: &#34;Nineteen Eighty-Four&#34;, author: &#34;George Orwell&#34;}, {title: &#34;Down and Out in Paris and London&#34;, author: &#34;George Orwell&#34;}, ] // act  const { queryAllByTestId } = render(<BookList books={books} />); // assert  expect(queryAllByTestId('book-item').">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://jsstrn.me/notes/testing-arrange-act-assert/"><meta property="article:section" content="notes">
-<meta property="article:modified_time" content="2021-09-21T18:14:05+08:00">
+<meta property="article:modified_time" content="2021-10-09T19:38:05+08:00">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="How to structure your unit tests">
 <meta name=twitter:description content="When writing test cases, we can organize our tests into three segments
  Arrange – set variables, stubs, mocks, spies, etc Act – the action that you wish to assert on Assert – make an assertion on the expected and actual results  Here&rsquo;s a simple example:
 test(&#34;renders correct number of books&#34;, () => { // arrange  const books = [ {title: &#34;Animal Farm&#34;, author: &#34;George Orwell&#34;}, {title: &#34;Nineteen Eighty-Four&#34;, author: &#34;George Orwell&#34;}, {title: &#34;Down and Out in Paris and London&#34;, author: &#34;George Orwell&#34;}, ] // act  const { queryAllByTestId } = render(<BookList books={books} />); // assert  expect(queryAllByTestId('book-item').">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Notes","item":"https://jsstrn.me/notes/"},{"@type":"ListItem","position":2,"name":"How to structure your unit tests","item":"https://jsstrn.me/notes/testing-arrange-act-assert/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"How to structure your unit tests","name":"How to structure your unit tests","description":"When writing test cases, we can organize our tests into three segments\n Arrange – set variables, stubs, mocks, spies, etc Act – the action that you wish to assert on Assert – make an assertion on the expected and actual results  Here\u0026rsquo;s a simple example:\ntest(\u0026#34;renders correct number of books\u0026#34;, () =\u0026gt; { // arrange  const books = [ {title: \u0026#34;Animal Farm\u0026#34;, author: \u0026#34;George Orwell\u0026#34;}, {title: \u0026#34;Nineteen Eighty-Four\u0026#34;, author: \u0026#34;George Orwell\u0026#34;}, {title: \u0026#34;Down and Out in Paris and London\u0026#34;, author: \u0026#34;George Orwell\u0026#34;}, ] // act  const { queryAllByTestId } = render(\u0026lt;BookList books={books} /\u0026gt;); // assert  expect(queryAllByTestId(\u0026#39;book-item\u0026#39;).","keywords":["software testing","best practice"],"articleBody":"When writing test cases, we can organize our tests into three segments\n Arrange – set variables, stubs, mocks, spies, etc Act – the action that you wish to assert on Assert – make an assertion on the expected and actual results  Here’s a simple example:\ntest(\"renders correct number of books\", () = { // arrange  const books = [ {title: \"Animal Farm\", author: \"George Orwell\"}, {title: \"Nineteen Eighty-Four\", author: \"George Orwell\"}, {title: \"Down and Out in Paris and London\", author: \"George Orwell\"}, ] // act  const { queryAllByTestId } = render(BookList books={books} /); // assert  expect(queryAllByTestId('book-item').length).toBe(3); }) ","wordCount":"97","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-09-21T18:14:05+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/testing-arrange-act-assert/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"How to structure your unit tests","name":"How to structure your unit tests","description":"When writing test cases, we can organize our tests into three segments\n Arrange – set variables, stubs, mocks, spies, etc Act – the action that you wish to assert on Assert – make an assertion on the expected and actual results  Here\u0026rsquo;s a simple example:\ntest(\u0026#34;renders correct number of books\u0026#34;, () =\u0026gt; { // arrange  const books = [ {title: \u0026#34;Animal Farm\u0026#34;, author: \u0026#34;George Orwell\u0026#34;}, {title: \u0026#34;Nineteen Eighty-Four\u0026#34;, author: \u0026#34;George Orwell\u0026#34;}, {title: \u0026#34;Down and Out in Paris and London\u0026#34;, author: \u0026#34;George Orwell\u0026#34;}, ] // act  const { queryAllByTestId } = render(\u0026lt;BookList books={books} /\u0026gt;); // assert  expect(queryAllByTestId(\u0026#39;book-item\u0026#39;).","keywords":["software testing","best practices"],"articleBody":"When writing test cases, we can organize our tests into three segments\n Arrange – set variables, stubs, mocks, spies, etc Act – the action that you wish to assert on Assert – make an assertion on the expected and actual results  Here’s a simple example:\ntest(\"renders correct number of books\", () = { // arrange  const books = [ {title: \"Animal Farm\", author: \"George Orwell\"}, {title: \"Nineteen Eighty-Four\", author: \"George Orwell\"}, {title: \"Down and Out in Paris and London\", author: \"George Orwell\"}, ] // act  const { queryAllByTestId } = render(BookList books={books} /); // assert  expect(queryAllByTestId('book-item').length).toBe(3); }) ","wordCount":"97","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-10-09T19:38:05+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/testing-arrange-act-assert/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -105,7 +105,7 @@ How to structure your unit tests
 <footer class=post-footer>
 <ul class=post-tags>
 <li><a href=https://jsstrn.me/tags/software-testing/>software testing</a></li>
-<li><a href=https://jsstrn.me/tags/best-practice/>best practice</a></li>
+<li><a href=https://jsstrn.me/tags/best-practices/>best practices</a></li>
 </ul>
 <nav class=paginav>
 <a class=prev href=https://jsstrn.me/notes/synology-setup-web-server/>
@@ -113,10 +113,10 @@ How to structure your unit tests
 <br>
 <span>How to setup a local web server with a Synology NAS server</span>
 </a>
-<a class=next href=https://jsstrn.me/notes/js-search-functionality/>
+<a class=next href=https://jsstrn.me/notes/macos-keys-control-option-command/>
 <span class=title>Next Page »</span>
 <br>
-<span>Implementing a frontend search functionality</span>
+<span>How to type the Control (^), Option (⌥), and Command (⌘) keys on macOS</span>
 </a>
 </nav>
 </footer>
