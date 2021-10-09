@@ -1,9 +1,8 @@
 ---
 title: "Limit number of open editors in VS Code"
-summary: "Set a limit to the number of open editors in VS Code"
 
-tags: ["visual studio code"]
-categories: ["software engineering"]
+tags: [vs code]
+categories: [software engineering]
 ---
 
 We can limit the number of open editors in VS Code by configuring the following in settings: 
