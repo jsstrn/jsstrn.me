@@ -3,11 +3,13 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
-<title>Useful Vim commands | Jesstern</title>
-<meta name=keywords content="vim">
-<meta name=description content="A list of the most commonly used Vim commands">
+<title>Repeating keys stopped working in macOS | Jesstern</title>
+<meta name=keywords content="keyboards,macos">
+<meta name=description content="I&rsquo;m not sure why this happened, but at some point I lost the ability to hold down on a key to repeat them.
+To solve this, run the following command in a terminal. You may need to restart the terminal for it to work.
+defaults write -g ApplePressAndHoldEnabled -bool false ">
 <meta name=author content="Jesstern Rays">
-<link rel=canonical href=https://jsstrn.me/notes/vim-commands/>
+<link rel=canonical href=https://jsstrn.me/notes/keyboard-repeat-keys-dont-work/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.9f1d947375927e9847272b1f4e9be81336f539e513bf04d52cade31f81cad1af.css integrity="sha256-nx2Uc3WSfphHJysfTpvoEzb1OeUTvwTVLK3jH4HK0a8=" rel="preload stylesheet" as=style>
 <script defer crossorigin=anonymous src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
 <link rel=icon href=https://jsstrn.me/favicon/favicon.ico>
@@ -18,16 +20,20 @@
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.88.1">
-<meta property="og:title" content="Useful Vim commands">
-<meta property="og:description" content="A list of the most commonly used Vim commands">
+<meta property="og:title" content="Repeating keys stopped working in macOS">
+<meta property="og:description" content="I&rsquo;m not sure why this happened, but at some point I lost the ability to hold down on a key to repeat them.
+To solve this, run the following command in a terminal. You may need to restart the terminal for it to work.
+defaults write -g ApplePressAndHoldEnabled -bool false ">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://jsstrn.me/notes/vim-commands/"><meta property="article:section" content="notes">
-<meta property="article:modified_time" content="2021-09-10T19:16:20+08:00">
+<meta property="og:url" content="https://jsstrn.me/notes/keyboard-repeat-keys-dont-work/"><meta property="article:section" content="notes">
+<meta property="article:modified_time" content="2021-10-10T01:30:24+08:00">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Useful Vim commands">
-<meta name=twitter:description content="A list of the most commonly used Vim commands">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Notes","item":"https://jsstrn.me/notes/"},{"@type":"ListItem","position":2,"name":"Useful Vim commands","item":"https://jsstrn.me/notes/vim-commands/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Useful Vim commands","name":"Useful Vim commands","description":"A list of the most commonly used Vim commands","keywords":["vim"],"articleBody":"Settings :set number – show line numbers\nModes Esc – command mode (default mode)\ni – insert mode (before cursor)\na – insert mode (after cursor)\nv – visual mode to select text to y (yank) or d (delete) text\nQuiting Vim :q – quit\n:q! – quit without saving\n:wq – save and quit\n:ZZ – save and quit\nUndo and redo u – undo the previous command\nU – undo the whole line\nCtrl + R – redo the previous command\nCopy and paste yw – yank (copy) a word\nyy – yank (copy) the entire line\ny$ – yank from cursor position to end of line\nyG – yank from cursor position to end of file\np – to put or paste the text that was copied or deleted\nDelete x – delete a character\ndw – delete word\ndd – delete line\nd$ – delete from cursor to end of line\ncw – change word; this will delete the word and put you in insert mode\nNavigation h – move left\nl – move right\nj – move down\nk – move down\n0 – move to start of line\n$ – move to end of line\nnG – move to line number where n is the line number (e.g. 54G goes to line 54)\n[[ – move to start of file\n]] – move to end of file\n","wordCount":"233","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-09-10T19:16:20+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/vim-commands/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon/favicon.ico"}}}</script>
+<meta name=twitter:title content="Repeating keys stopped working in macOS">
+<meta name=twitter:description content="I&rsquo;m not sure why this happened, but at some point I lost the ability to hold down on a key to repeat them.
+To solve this, run the following command in a terminal. You may need to restart the terminal for it to work.
+defaults write -g ApplePressAndHoldEnabled -bool false ">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Notes","item":"https://jsstrn.me/notes/"},{"@type":"ListItem","position":2,"name":"Repeating keys stopped working in macOS","item":"https://jsstrn.me/notes/keyboard-repeat-keys-dont-work/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Repeating keys stopped working in macOS","name":"Repeating keys stopped working in macOS","description":"I\u0026rsquo;m not sure why this happened, but at some point I lost the ability to hold down on a key to repeat them.\nTo solve this, run the following command in a terminal. You may need to restart the terminal for it to work.\ndefaults write -g ApplePressAndHoldEnabled -bool false ","keywords":["keyboards","macos"],"articleBody":"I’m not sure why this happened, but at some point I lost the ability to hold down on a key to repeat them.\nTo solve this, run the following command in a terminal. You may need to restart the terminal for it to work.\ndefaults write -g ApplePressAndHoldEnabled -bool false ","wordCount":"50","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-10-10T01:30:24+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/keyboard-repeat-keys-dont-work/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -68,64 +74,31 @@
 <header class=post-header>
 <div class=breadcrumbs><a href=https://jsstrn.me/>Home</a>&nbsp;»&nbsp;<a href=https://jsstrn.me/notes/>Notes</a></div>
 <h1 class=post-title>
-Useful Vim commands
+Repeating keys stopped working in macOS
 </h1>
-<div class=post-meta>2 min&nbsp;·&nbsp;Jesstern Rays
+<div class=post-meta>1 min&nbsp;·&nbsp;Jesstern Rays
 </div>
 </header>
-<div class=post-content><h2 id=settings>Settings<a hidden class=anchor aria-hidden=true href=#settings>#</a></h2>
-<p><code>:set number</code> – show line numbers</p>
-<h2 id=modes>Modes<a hidden class=anchor aria-hidden=true href=#modes>#</a></h2>
-<p><code>Esc</code> – command mode (default mode)</p>
-<p><code>i</code> – insert mode (before cursor)</p>
-<p><code>a</code> – insert mode (after cursor)</p>
-<p><code>v</code> – visual mode to select text to <code>y</code> (yank) or <code>d</code> (delete) text</p>
-<h2 id=quiting-vim>Quiting Vim<a hidden class=anchor aria-hidden=true href=#quiting-vim>#</a></h2>
-<p><code>:q</code> – quit</p>
-<p><code>:q!</code> – quit without saving</p>
-<p><code>:wq</code> – save and quit</p>
-<p><code>:ZZ</code> – save and quit</p>
-<h2 id=undo-and-redo>Undo and redo<a hidden class=anchor aria-hidden=true href=#undo-and-redo>#</a></h2>
-<p><code>u</code> – undo the previous command</p>
-<p><code>U</code> – undo the whole line</p>
-<p><code>Ctrl + R</code> – redo the previous command</p>
-<h2 id=copy-and-paste>Copy and paste<a hidden class=anchor aria-hidden=true href=#copy-and-paste>#</a></h2>
-<p><code>yw</code> – yank (copy) a word</p>
-<p><code>yy</code> – yank (copy) the entire line</p>
-<p><code>y$</code> – yank from cursor position to end of line</p>
-<p><code>yG</code> – yank from cursor position to end of file</p>
-<p><code>p</code> – to put or paste the text that was copied or deleted</p>
-<h2 id=delete>Delete<a hidden class=anchor aria-hidden=true href=#delete>#</a></h2>
-<p><code>x</code> – delete a character</p>
-<p><code>dw</code> – delete word</p>
-<p><code>dd</code> – delete line</p>
-<p><code>d$</code> – delete from cursor to end of line</p>
-<p><code>cw</code> – change word; this will delete the word and put you in <code>insert</code> mode</p>
-<h2 id=navigation>Navigation<a hidden class=anchor aria-hidden=true href=#navigation>#</a></h2>
-<p><code>h</code> – move left</p>
-<p><code>l</code> – move right</p>
-<p><code>j</code> – move down</p>
-<p><code>k</code> – move down</p>
-<p><code>0</code> – move to start of line</p>
-<p><code>$</code> – move to end of line</p>
-<p><code>nG</code> – move to line number where <code>n</code> is the line number (e.g. <code>54G</code> goes to line 54)</p>
-<p><code>[[</code> – move to start of file</p>
-<p><code>]]</code> – move to end of file</p>
+<div class=post-content><p>I&rsquo;m not sure why this happened, but at some point I lost the ability to hold down on a key to repeat them.</p>
+<p>To solve this, run the following command in a terminal. You may need to restart the terminal for it to work.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>defaults write -g ApplePressAndHoldEnabled -bool false
+</code></pre></div>
 </div>
 <footer class=post-footer>
 <ul class=post-tags>
-<li><a href=https://jsstrn.me/tags/vim/>vim</a></li>
+<li><a href=https://jsstrn.me/tags/keyboards/>keyboards</a></li>
+<li><a href=https://jsstrn.me/tags/macos/>macos</a></li>
 </ul>
 <nav class=paginav>
-<a class=prev href=https://jsstrn.me/notes/vim-browser-extension/>
+<a class=prev href=https://jsstrn.me/notes/raspi-restart/>
 <span class=title>« Prev Page</span>
 <br>
-<span>Use Vim Vixen for Vim-like commands in Firefox</span>
+<span>Reboot your Raspberry Pi</span>
 </a>
-<a class=next href=https://jsstrn.me/notes/git-commit/>
+<a class=next href=https://jsstrn.me/notes/resources-for-technical-interview/>
 <span class=title>Next Page »</span>
 <br>
-<span>View changes before committing</span>
+<span>Resources for technical interviews</span>
 </a>
 </nav>
 </footer>
