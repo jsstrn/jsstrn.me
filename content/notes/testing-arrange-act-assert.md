@@ -1,7 +1,7 @@
 ---
 title: "How to structure your unit tests"
 
-tags: ["software testing", "best practice"]
+tags: [software testing, best practices]
 categories: []
 ---
 
