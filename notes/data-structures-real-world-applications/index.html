@@ -3,11 +3,11 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
-<title>React Query | Jesstern</title>
-<meta name=keywords content="javascript,react">
-<meta name=description content="Fetch, cache and update data in React applications">
+<title>Real world applications of data structures | Jesstern</title>
+<meta name=keywords content="data structures">
+<meta name=description content="Arrays  Strings are represented by arrays which is why you can usually run array methods on strings  Trees  Document Object Model uses a tree structure to represent an HTML page Git uses a tree structure to store its commit history Databases like MongoDB use B-trees for indexing  ">
 <meta name=author content="Jesstern Rays">
-<link rel=canonical href=https://jsstrn.me/notes/react-query/>
+<link rel=canonical href=https://jsstrn.me/notes/data-structures-real-world-applications/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.9f1d947375927e9847272b1f4e9be81336f539e513bf04d52cade31f81cad1af.css integrity="sha256-nx2Uc3WSfphHJysfTpvoEzb1OeUTvwTVLK3jH4HK0a8=" rel="preload stylesheet" as=style>
 <script defer crossorigin=anonymous src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
 <link rel=icon href=https://jsstrn.me/favicon/favicon.ico>
@@ -18,16 +18,16 @@
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.88.1">
-<meta property="og:title" content="React Query">
-<meta property="og:description" content="Fetch, cache and update data in React applications">
+<meta property="og:title" content="Real world applications of data structures">
+<meta property="og:description" content="Arrays  Strings are represented by arrays which is why you can usually run array methods on strings  Trees  Document Object Model uses a tree structure to represent an HTML page Git uses a tree structure to store its commit history Databases like MongoDB use B-trees for indexing  ">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://jsstrn.me/notes/react-query/"><meta property="article:section" content="notes">
-<meta property="article:modified_time" content="2021-09-10T19:16:20+08:00">
+<meta property="og:url" content="https://jsstrn.me/notes/data-structures-real-world-applications/"><meta property="article:section" content="notes">
+<meta property="article:modified_time" content="2021-10-11T05:19:35+08:00">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="React Query">
-<meta name=twitter:description content="Fetch, cache and update data in React applications">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Notes","item":"https://jsstrn.me/notes/"},{"@type":"ListItem","position":2,"name":"React Query","item":"https://jsstrn.me/notes/react-query/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"React Query","name":"React Query","description":"Fetch, cache and update data in React applications","keywords":["javascript","react"],"articleBody":"React Query  has a very elegant API for fetching and caching data in React applications without getting tangled in global state.\nReference  Data fetching in Redux is painful, get rid of it now.  ","wordCount":"33","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-09-10T19:16:20+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/react-query/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon/favicon.ico"}}}</script>
+<meta name=twitter:title content="Real world applications of data structures">
+<meta name=twitter:description content="Arrays  Strings are represented by arrays which is why you can usually run array methods on strings  Trees  Document Object Model uses a tree structure to represent an HTML page Git uses a tree structure to store its commit history Databases like MongoDB use B-trees for indexing  ">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Notes","item":"https://jsstrn.me/notes/"},{"@type":"ListItem","position":2,"name":"Real world applications of data structures","item":"https://jsstrn.me/notes/data-structures-real-world-applications/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Real world applications of data structures","name":"Real world applications of data structures","description":"Arrays  Strings are represented by arrays which is why you can usually run array methods on strings  Trees  Document Object Model uses a tree structure to represent an HTML page Git uses a tree structure to store its commit history Databases like MongoDB use B-trees for indexing  ","keywords":["data structures"],"articleBody":"Arrays  Strings are represented by arrays which is why you can usually run array methods on strings  Trees  Document Object Model uses a tree structure to represent an HTML page Git uses a tree structure to store its commit history Databases like MongoDB use B-trees for indexing  ","wordCount":"47","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-10-11T05:19:35+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/data-structures-real-world-applications/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -68,32 +68,36 @@
 <header class=post-header>
 <div class=breadcrumbs><a href=https://jsstrn.me/>Home</a>&nbsp;»&nbsp;<a href=https://jsstrn.me/notes/>Notes</a></div>
 <h1 class=post-title>
-React Query
+Real world applications of data structures
 </h1>
 <div class=post-meta>1 min&nbsp;·&nbsp;Jesstern Rays
 </div>
 </header>
-<div class=post-content><p><a href=https://react-query.tanstack.com/>React Query </a> has a very elegant API for fetching and caching data in React applications without getting tangled in global state.</p>
-<h2 id=reference>Reference<a hidden class=anchor aria-hidden=true href=#reference>#</a></h2>
+<div class=post-content><h2 id=arrays>Arrays<a hidden class=anchor aria-hidden=true href=#arrays>#</a></h2>
 <ul>
-<li><a href=https://medium.com/@cant89/data-fetching-in-redux-is-painful-get-rid-of-it-now-2b71305268e1>Data fetching in Redux is painful, get rid of it now</a>.</li>
+<li>Strings are represented by arrays which is why you can usually run array methods on strings</li>
+</ul>
+<h2 id=trees>Trees<a hidden class=anchor aria-hidden=true href=#trees>#</a></h2>
+<ul>
+<li><a href=https://dom.spec.whatwg.org/#introduction-to-the-dom>Document Object Model</a> uses a tree structure to represent an HTML page</li>
+<li>Git uses a tree structure to store its commit history</li>
+<li>Databases like <a href=https://docs.mongodb.com/manual/indexes/>MongoDB</a> use B-trees for indexing</li>
 </ul>
 </div>
 <footer class=post-footer>
 <ul class=post-tags>
-<li><a href=https://jsstrn.me/tags/javascript/>javascript</a></li>
-<li><a href=https://jsstrn.me/tags/react/>react</a></li>
+<li><a href=https://jsstrn.me/tags/data-structures/>data structures</a></li>
 </ul>
 <nav class=paginav>
-<a class=prev href=https://jsstrn.me/notes/adage-peter-principle/>
+<a class=prev href=https://jsstrn.me/notes/react-query/>
 <span class=title>« Prev Page</span>
 <br>
-<span>Peter Principle</span>
+<span>React Query</span>
 </a>
-<a class=next href=https://jsstrn.me/notes/data-structures-real-world-applications/>
+<a class=next href=https://jsstrn.me/notes/real-world-app/>
 <span class=title>Next Page »</span>
 <br>
-<span>Real world applications of data structures</span>
+<span>RealWorld example applications</span>
 </a>
 </nav>
 </footer>
