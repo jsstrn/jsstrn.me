@@ -5,7 +5,7 @@ tags: [data structures]
 categories: [software engineering]
 ---
 
-In the Algorithm Design Manual, Skiena explains that there are two types of data structures – contigous and linked data structures. Their distinction being how they are stored in memory.
+In the Algorithm Design Manual, Skiena explains that there are two types of data structures – contiguous and linked data structures. Their distinction being how they are stored in memory.
 
 1. **Contiguous data structures** are composed of a single slab of memory, and include arrays, hash tables, matrices, and heaps.
 
