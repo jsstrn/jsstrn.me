@@ -12,7 +12,7 @@ We might be inclined to think that we can first encrypt our documents before sen
 
 Of course, we can't send the password via email. What some companies have done is to use a password that is known to the customer, like their date of birth or account number and even include the format for the password.
 
-While this might seem like a good idea, information like your date of birth or passport number can all be retrieved through social engineering. Furthermore, using such weak passwords make them easy to crack in just a few days. By including the format, you've just sped up this process to mere seconds.
+While this might seem like a good idea, information like your date of birth or passport number can all be retrieved through social engineering. Furthermore, using such weak passwords make them easy to crack in just a couple of weeks. By including the format, you've just sped up this process to mere seconds.
 
 Its bad enough when companies send out sensitive documents like bank statements and investment portfolios via email, but its even worse when these companies ask _you_ to send them sensitive documents via email.
 
