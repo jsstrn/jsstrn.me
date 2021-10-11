@@ -1,5 +1,5 @@
 ---
-date: 2021-10-11T16:09:10+08:00
+date: 2021-10-10T16:09:10+08:00
 title: "Do not send sensitive data via email"
 
 tags: [security]
