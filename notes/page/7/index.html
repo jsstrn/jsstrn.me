@@ -171,9 +171,9 @@ Some useful commands to remember:...</p>
 </header>
 <section class=entry-content>
 <p>In JavaScript, all values are truthy unless they are defined as falsy. Here’s a complete list of falsy values.
-Any value that isn’t falsy is by definition truthy. This means that an empty array [] or an empty object {} or a negative number are all considered truthy.
-For example, it’s not uncommon to see code that looks like this
-const fruits = [] if (!fruits) { // your code here } We are trying to check if fruits is an empty array, we cannot rely on type coercion in boolean context to check if fruits is an empty array....</p>
+Any value that isn’t falsy is by definition truthy. This means that an empty array [] or an empty object {} or a negative number are all considered truthy, but an empty string "" is falsy.
+Consider the following example,
+const name = "" if (!name) { // your code here } While the code above works for checking for an empty string, the same cannot be said while checking for an empty array....</p>
 </section>
 <footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
 <a class=entry-link aria-label="post link to What are truthy values in JavaScript?" href=https://jsstrn.me/notes/js-all-values-truthy/></a>
