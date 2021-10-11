@@ -12,6 +12,7 @@ categories: [software engineering]
 - [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) - a vulnerable [web application](https://juice-shop.herokuapp.com/#/) used for security training
 - [OWASP Node Goat](https://owasp.org/www-project-node.js-goat/) - a vulnerable [web application](https://nodegoat.herokuapp.com/login) used for security training with [tutorials](https://nodegoat.herokuapp.com/tutorial)
 - [XCS100: Introduction to Web Security](https://online.stanford.edu/courses/xcs100-introduction-web-security) - a free introductory course to web security by Stanford University
+- [Offensive Security](https://www.offensive-security.com/)
 
 ## News
 
