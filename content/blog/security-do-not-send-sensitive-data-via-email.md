@@ -22,6 +22,6 @@ Under no circumstances should you ever do this. It does not matter if they say t
 
 When I had to take out a loan from a bank they required me to send over some documents over email.
 
-First I encrypted my documents with a passphrase that was at least 30 characters long with a mix of uppercase and lowercase letters, numbers, and symbols.
+First I encrypted my documents with a passphrase that was between 30 and 50 characters long with a mix of uppercase and lowercase letters, numbers, and symbols.
 
 I then sent the encrypted documents via email and physically made my way to the bank to tell them the password to decrypt it. It was definitely cumbersome, but I didn't see how else to go about it as they did not have an online application form.
