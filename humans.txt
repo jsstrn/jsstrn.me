@@ -5,7 +5,9 @@
  _/ |___/___/\__|_|  |_| |_(_)_| |_| |_|\___|
 |__/                                         
 
-Hello human! I'm Jesstern, the author of jsstrn.me. You can find me on GitHub https://github.com/jsstrn.
+Hello human!
+
+I'm Jesstern, the author of jsstrn.me. You can find me on GitHub https://github.com/jsstrn.
 
 This site is built with Hugo using the PaperMod theme and hosted on GitHub Pages.
 
