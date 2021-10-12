@@ -7,7 +7,8 @@ draft: true
 ShowToc: true
 TocOpen: true
 
-tags: [recipes]
+tags: []
+categories: [recipes]
 ---
 
 ## Ingredients 
