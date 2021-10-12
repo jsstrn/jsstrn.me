@@ -1,9 +1,8 @@
 ---
-title: "How to clone a repository with submodules"
-summary: "Clone a repository with submodules"
+title: "Clone a repository with submodules"
 
-tags: ["git"]
-categories: ["software engineering"]
+tags: [git]
+categories: [software engineering]
 ---
 
 Git commands are different for different versions so be sure to check your Git version.
@@ -32,4 +31,6 @@ git submodule init
 git submodule update
 ```
 
-Reference: [How to clone including submodules](https://www.w3docs.com/snippets/git/how-to-clone-including-submodules.html)
+# Reference
+
+- [How to clone including submodules](https://www.w3docs.com/snippets/git/how-to-clone-including-submodules.html)

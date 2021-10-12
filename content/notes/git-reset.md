@@ -1,9 +1,9 @@
 ---
-title: "How to reset changes in Git"
+title: "Reset changes in Git"
 summary: "Reverting your changes in Git"
 
-tags: ["git"]
-categories: ["software engineering"]
+tags: [git]
+categories: [software engineering]
 ---
 
 Let's assume you have made three commits to your master branch.

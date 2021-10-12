@@ -1,9 +1,8 @@
 ---
-title: "How to check the status of a Git repository"
-summary: "Check the status of a Git repository"
+title: "Check the status of a Git repository"
 
-tags: ["git"]
-categories: ["software engineering"]
+tags: [git]
+categories: [software engineering]
 ---
 
 To check the status of the Git repository.
