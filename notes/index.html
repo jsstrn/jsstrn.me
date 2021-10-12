@@ -165,25 +165,31 @@ expect(result).toBeTruthy() // passes if result is {} or [] or 1 Contrast it wit
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Create a favicon for your site
+<h2>Check the status of a Git repository
 </h2>
 </header>
 <section class=entry-content>
-<p>Find or create a suitable favicon for your site</p>
+<p>To check the status of the Git repository.
+git status We can see a --short or -s version with this command.
+git status --short For convenience, you can add git st as an alias.
+git config --global alias.st "status --short" </p>
 </section>
 <footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Create a favicon for your site" href=https://jsstrn.me/notes/generate-favicon/></a>
+<a class=entry-link aria-label="post link to Check the status of a Git repository" href=https://jsstrn.me/notes/git-status/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Create an array from range of numbers
+<h2>Clone a repository with submodules
 </h2>
 </header>
 <section class=entry-content>
-<p>How to create an array of elements based on a range of numbers in JavaScript</p>
+<p>Git commands are different for different versions so be sure to check your Git version.
+git --version Clone a repository with submodules using the --recurse-submodules flag. This works for Git version 2.13 or higher.
+git clone --recurse-submodules &lt;remote-repo-url> If the repository has a lot of submodules, then adding the -j8 flag will fetch up to 8 submodules in parallel.
+git clone --recurse-submodules -j8 &lt;remote-repo-url> Alternatively, first clone the repository and then add the submodules....</p>
 </section>
-<footer class=entry-footer>2 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Create an array from range of numbers" href=https://jsstrn.me/notes/js-array-range/></a>
+<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
+<a class=entry-link aria-label="post link to Clone a repository with submodules" href=https://jsstrn.me/notes/git-submodule/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
