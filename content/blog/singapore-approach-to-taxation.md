@@ -3,7 +3,7 @@ date: 2021-10-04T20:07:04+08:00
 title: "Singapore's approach to taxation"
 
 tags: [singapore]
-categories: [general]
+categories: []
 ---
 
 Several years ago, a friend of mine from Germany visited Singapore. They were really impressed with the well maintained roads, excellent public transportation system, and infrastructure. However, they wondered how it was possible for the Singapore government to fund all this with such low income taxes.

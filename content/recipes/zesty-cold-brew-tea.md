@@ -5,7 +5,8 @@ summary: "My recipe for a refreshing zesty cold brew tea"
 ShowToc: true
 TocOpen: true
 
-tags: [recipes]
+tags: []
+categories: [recipes]
 ---
 
 ## Ingredients 

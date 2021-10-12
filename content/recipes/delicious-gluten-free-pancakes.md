@@ -5,7 +5,8 @@ summary: "My recipe for vegan and gluten-free pancakes"
 ShowToc: true
 TocOpen: true
 
-tags: [recipes, vegan, gluten-free]
+tags: [vegan, gluten-free]
+categories: [recipes]
 ---
 
 ## Ingredients

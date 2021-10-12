@@ -5,7 +5,8 @@ summary: "My recipe for delicious Chinese style stir fried vegetables."
 ShowToc: true
 TocOpen: true
 
-tags: [recipes, vegan]
+tags: [vegan]
+categories: [recipes]
 ---
 
 ## Ingredients
