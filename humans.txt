@@ -1,0 +1,12 @@
+  ____  _____ _____ ______  ____   ____       ___ ___    ___ 
+ |    |/ ___// ___/|      ||    \ |    \     |   |   |  /  _]
+ |__  (   \_(   \_ |      ||  D  )|  _  |    | _   _ | /  [_ 
+ __|  |\__  |\__  ||_|  |_||    / |  |  |    |  \_/  ||    _]
+/  |  |/  \ |/  \ |  |  |  |    \ |  |  | __ |   |   ||   [_ 
+\  `  |\    |\    |  |  |  |  .  \|  |  ||  ||   |   ||     |
+ \____| \___| \___|  |__|  |__|\_||__|__||__||___|___||_____|
+                                                             
+
+Hi! My name is Jesstern Rays and this is my personal website. I am the sole developer and author of https://jsstrn.me. You can find me on GitHub https://github.com/jsstrn. 
+
+This site is built with Hugo and the PaperMob theme. Each time a new commit is pushed, this site gets built and automatically deployed through the magic of GitHub Actions. It is hosted on GitHub Pages. The repository is open source and also lives on GitHub https://github.com/jsstrn/jsstrn.me.
