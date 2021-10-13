@@ -1,5 +1,5 @@
 ---
-title: "How to connect to your Synology NAS server with SSH"
+title: "Connect to your Synology NAS with SSH"
 
 tags: ["nas", "synology"]
 categories: ["technology"]
@@ -11,12 +11,12 @@ Open a terminal and connect to your NAS server via SSH
 
 ```sh
 ssh <user>@<ip-address>
-``` 
+```
 
-If you have set up a `.local` domain, then 
+If you have set up a `.local` domain, then
 
 ```sh
 ssh <user>@<server-name>.local
 ```
 
-You will be prompted for your password. 
+You will be prompted for your password.

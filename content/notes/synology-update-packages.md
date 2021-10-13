@@ -1,8 +1,8 @@
 ---
-title: "Keep your Synology NAS server updated"
+title: "Keep your Synology NAS updated"
 
-tags: ["nas", "synology"]
-categories: ["technology"]
+tags: [nas, synology]
+categories: [technology]
 ---
 
 ## Update your packages

@@ -1,5 +1,5 @@
 ---
-title: "How to setup a local web server with a Synology NAS server"
+title: "Setup a local web server with a Synology NAS"
 
 tags: ["nas", "synology"]
 categories: ["technology"]
