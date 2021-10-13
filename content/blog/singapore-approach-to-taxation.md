@@ -46,4 +46,6 @@ Singapore also has high taxes on goods such as cigarettes, alcohol, and gambling
 
 Economics is about incentives and disincentives and this is very much true in Singapore. We have low income taxes to incentivize people to work. We contribute to a fund to help pay for national development and our financial needs later in life. With high taxes on luxury goods and vices, we have to prioritize things that are more important to us.
 
-While this approach does not come without its own set of challenges, its a system that has worked well for Singapore. 
+While this approach does not come without its own set of challenges, its a system that has worked well for Singapore.
+
+{{< reply-via-email >}}
