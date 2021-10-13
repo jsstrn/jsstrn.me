@@ -73,6 +73,43 @@ The easiest way to browse through these notes is by exploring tags or with searc
 </div>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Check if a variable is null or undefined in JavaScript
+</h2>
+</header>
+<section class=entry-content>
+<p>Use double question mark operator to check if a variable is null or undefined in JavaScript</p>
+</section>
+<footer class=entry-footer>2 min&nbsp;·&nbsp;Jesstern Rays</footer>
+<a class=entry-link aria-label="post link to Check if a variable is null or undefined in JavaScript" href=https://jsstrn.me/notes/js-check-null-undefined/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Check the architecture of your Synology NAS
+</h2>
+</header>
+<section class=entry-content>
+<p>It may be useful for troubleshooting to know the architecture and CPU of your Synology NAS server.
+For instance, the Synology DS218j model is an x18 Series and has a Dual Core Marvell Armada 385 88F6820 with 512MB of DDR3 RAM.</p>
+</section>
+<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
+<a class=entry-link aria-label="post link to Check the architecture of your Synology NAS" href=https://jsstrn.me/notes/synology-cpu-architecture/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Check the status of a Git repository
+</h2>
+</header>
+<section class=entry-content>
+<p>To check the status of the Git repository.
+git status We can see a --short or -s version with this command.
+git status --short For convenience, you can add git st as an alias.
+git config --global alias.st "status --short" </p>
+</section>
+<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
+<a class=entry-link aria-label="post link to Check the status of a Git repository" href=https://jsstrn.me/notes/git-status/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Clone a repository with submodules
 </h2>
 </header>
@@ -84,6 +121,46 @@ git clone --recurse-submodules -j8 &lt;remote-repo-url> Alternatively, first clo
 </section>
 <footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
 <a class=entry-link aria-label="post link to Clone a repository with submodules" href=https://jsstrn.me/notes/git-submodule/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Connect to your Synology NAS from a web browser
+</h2>
+</header>
+<section class=entry-content>
+<p>First, check that your NAS server and your computer are on the same network.
+You can connect to your NAS server by pointing your browser to http://&lt;your-ip-address>:5000 and then provide the login credentials.
+Check your home router to determine what IP address has been assigned to your NAS server. Optionally, you can fix an IP address so its easier for you to connect to your NAS in future.
+If you have set up a ....</p>
+</section>
+<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
+<a class=entry-link aria-label="post link to Connect to your Synology NAS from a web browser" href=https://jsstrn.me/notes/synology-connect-via-browser/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Connect to your Synology NAS with SSH
+</h2>
+</header>
+<section class=entry-content>
+<p>First, open Control Panel and navigate to Terminal & SNMP. Next, enable SSH service. Click Apply. Now you can SSH into your NAS with your credentials.
+Open a terminal and connect to your NAS server via SSH
+ssh &lt;user>@&lt;ip-address> If you have set up a .local domain, then
+ssh &lt;user>@&lt;server-name>.local You will be prompted for your password.</p>
+</section>
+<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
+<a class=entry-link aria-label="post link to Connect to your Synology NAS with SSH" href=https://jsstrn.me/notes/synology-connect-via-ssh/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Consolidate all your cloud storage data with Cloud Sync
+</h2>
+</header>
+<section class=entry-content>
+<p>It’s not uncommon to have our data stored on multiple sources on the cloud. We might have some data stored on Dropbox, others on Google Drive, and still others on iCloud Drive.
+With Synology’s Cloud Sync, they can finally all live in one place.</p>
+</section>
+<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
+<a class=entry-link aria-label="post link to Consolidate all your cloud storage data with Cloud Sync" href=https://jsstrn.me/notes/synology-sync-cloud-data-with-cloud-sync/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
@@ -122,76 +199,6 @@ resume serve --theme &lt;theme-name> To host your resume online, create a Gist o
 </section>
 <footer class=entry-footer>2 min&nbsp;·&nbsp;Jesstern Rays</footer>
 <a class=entry-link aria-label="post link to Create an array from range of numbers" href=https://jsstrn.me/notes/js-array-range/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Difference between for...of and for...in in JavaScript
-</h2>
-</header>
-<section class=entry-content>
-<p>for...of is for arrays The for...of statement iterates over values of an iterable (e.g. String, Array, Set, Map).
-If we have 10 apples and we have 1 of them, we might say 1 of 10 apples. That’s one way to remember that for...of is for arrays.
-const array = ['a', 'b', 'c'] for (const element of array) { // element => 'a', 'b', 'c' } for...in is for objects The for....</p>
-</section>
-<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Difference between for...of and for...in in JavaScript" href=https://jsstrn.me/notes/js-for-of-vs-for-in/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Dig – DNS lookup utility
-</h2>
-</header>
-<section class=entry-content>
-<p>How to check your domain’s DNS configurations</p>
-</section>
-<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Dig – DNS lookup utility" href=https://jsstrn.me/notes/dig-dns-lookup-domain/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Exit a Bash script on error
-</h2>
-</header>
-<section class=entry-content>
-<p>How to exit a Bash script when any command fails</p>
-</section>
-<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Exit a Bash script on error" href=https://jsstrn.me/notes/bash-exit-on-error/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Extreme Programming
-</h2>
-</header>
-<section class=entry-content>
-<p>Extreme Programming (XP) adopts an iterative development process with iteration and release planning meetings centered around user stories.
-XP emphasizes writing software with test driven development, pair programming, and continuous integration.
-Reference Introducing Extreme Programming </p>
-</section>
-<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Extreme Programming" href=https://jsstrn.me/notes/agile-extreme-programming/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Getting started with Pi-hole
-</h2>
-</header>
-<section class=entry-content>
-<p>Using Pi-hole to block ads</p>
-</section>
-<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Getting started with Pi-hole" href=https://jsstrn.me/notes/raspi-pi-hole/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Guidelines for building CLI tools
-</h2>
-</header>
-<section class=entry-content>
-<p>Best practices for building CLI tools</p>
-</section>
-<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Guidelines for building CLI tools" href=https://jsstrn.me/notes/cli-guidelines/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

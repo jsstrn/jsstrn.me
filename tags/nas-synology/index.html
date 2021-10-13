@@ -3,11 +3,11 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
-<title>synology | Jesstern</title>
+<title>nas synology | Jesstern</title>
 <meta name=keywords content>
 <meta name=description content>
 <meta name=author content="Jesstern Rays">
-<link rel=canonical href=https://jsstrn.me/tags/synology/>
+<link rel=canonical href=https://jsstrn.me/tags/nas-synology/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.9f1d947375927e9847272b1f4e9be81336f539e513bf04d52cade31f81cad1af.css integrity="sha256-nx2Uc3WSfphHJysfTpvoEzb1OeUTvwTVLK3jH4HK0a8=" rel="preload stylesheet" as=style>
 <link rel=icon href=https://jsstrn.me/favicon/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://jsstrn.me/favicon/favicon-16x16.png>
@@ -17,13 +17,13 @@
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.88.1">
-<link rel=alternate type=application/rss+xml href=https://jsstrn.me/tags/synology/index.xml>
-<meta property="og:title" content="synology">
+<link rel=alternate type=application/rss+xml href=https://jsstrn.me/tags/nas-synology/index.xml>
+<meta property="og:title" content="nas synology">
 <meta property="og:description" content>
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://jsstrn.me/tags/synology/">
+<meta property="og:url" content="https://jsstrn.me/tags/nas-synology/">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="synology">
+<meta name=twitter:title content="nas synology">
 <meta name=twitter:description content>
 </head>
 <body class=list id=top>
@@ -62,98 +62,42 @@
 </header>
 <main class=main>
 <header class=page-header><div class=breadcrumbs><a href=https://jsstrn.me/>Home</a>&nbsp;»&nbsp;<a href=https://jsstrn.me/tags/>Tags</a></div>
-<h1>synology</h1>
+<h1>nas synology</h1>
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Assign a .local domain to your Synology NAS
+<h2>Backup your data with Hyper Backup on Synology NAS
 </h2>
 </header>
 <section class=entry-content>
-<p>Using an IP address can be quite cumbersome, so let’s assign a .local domain to your NAS.
-Head over to Control Panel and select Network. Under the General tab, set your server name. Click Apply and you can now access your NAS with http://&lt;server-name>.local:5000 from a web browser that’s within the same local network.</p>
+<p>Install the Hyper Backup package in your Synology NAS and configure it to back up your data on an external cloud service such as S3, Dropbox, etc.</p>
 </section>
 <footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Assign a .local domain to your Synology NAS" href=https://jsstrn.me/notes/synology-local-domain/></a>
+<a class=entry-link aria-label="post link to Backup your data with Hyper Backup on Synology NAS" href=https://jsstrn.me/notes/synology-backup-your-data-with-hyper-backup/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Check the architecture of your Synology NAS
+<h2>Consolidate all your cloud storage data with Cloud Sync
 </h2>
 </header>
 <section class=entry-content>
-<p>It may be useful for troubleshooting to know the architecture and CPU of your Synology NAS server.
-For instance, the Synology DS218j model is an x18 Series and has a Dual Core Marvell Armada 385 88F6820 with 512MB of DDR3 RAM.</p>
+<p>It’s not uncommon to have our data stored on multiple sources on the cloud. We might have some data stored on Dropbox, others on Google Drive, and still others on iCloud Drive.
+With Synology’s Cloud Sync, they can finally all live in one place.</p>
 </section>
 <footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Check the architecture of your Synology NAS" href=https://jsstrn.me/notes/synology-cpu-architecture/></a>
+<a class=entry-link aria-label="post link to Consolidate all your cloud storage data with Cloud Sync" href=https://jsstrn.me/notes/synology-sync-cloud-data-with-cloud-sync/></a>
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Connect to your Synology NAS from a web browser
+<h2>Setup a home media server with Video Station on Synology NAS
 </h2>
 </header>
 <section class=entry-content>
-<p>First, check that your NAS server and your computer are on the same network.
-You can connect to your NAS server by pointing your browser to http://&lt;your-ip-address>:5000 and then provide the login credentials.
-Check your home router to determine what IP address has been assigned to your NAS server. Optionally, you can fix an IP address so its easier for you to connect to your NAS in future.
-If you have set up a ....</p>
+<p>Setup a home media server with Synology’s Video Station.
+Download DS Video to watch your videos on Apple TV and iOS.</p>
 </section>
 <footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Connect to your Synology NAS from a web browser" href=https://jsstrn.me/notes/synology-connect-via-browser/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Connect to your Synology NAS with SSH
-</h2>
-</header>
-<section class=entry-content>
-<p>First, open Control Panel and navigate to Terminal & SNMP. Next, enable SSH service. Click Apply. Now you can SSH into your NAS with your credentials.
-Open a terminal and connect to your NAS server via SSH
-ssh &lt;user>@&lt;ip-address> If you have set up a .local domain, then
-ssh &lt;user>@&lt;server-name>.local You will be prompted for your password.</p>
-</section>
-<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Connect to your Synology NAS with SSH" href=https://jsstrn.me/notes/synology-connect-via-ssh/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Keep your Synology NAS updated
-</h2>
-</header>
-<section class=entry-content>
-<p>Update your packages It’s a good idea to periodically check that all your packages are updated. Head over to Package Manager, select Installed and update any packages as required.
-You can also set up automatic updates from the settings within Package Manager and verify that Update packages automatically has been checked.
-Update DiskStation Manager (DSM) Open the Control Panel and navigate or search for Update & Restore. Next, update your DSM as required....</p>
-</section>
-<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Keep your Synology NAS updated" href=https://jsstrn.me/notes/synology-update-packages/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Setup a local web server with a Synology NAS
-</h2>
-</header>
-<section class=entry-content>
-<p>Go to Package Center and install Web Station. Now you should be able to see a default webpage when you visit http://&lt;your-ip-address> or http://&lt;server-name>.local (the default port is 80).
-To edit the webpage, go to the web directory in your File Station.
-Note that the website is only accessible within your local network. If you want to be access it via the internet you’ll need to setup DDNS.</p>
-</section>
-<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Setup a local web server with a Synology NAS" href=https://jsstrn.me/notes/synology-setup-web-server/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Setup Plex media server on your Synology NAS
-</h2>
-</header>
-<section class=entry-content>
-<p>Plex is no longer listed as a third-party package on Package Manager for DSM 7.0 and the one that is listed for DSM 6.2 is outdated, so you have to manually install the media server.
-Download Plex media server for Synology and manually install the package with Package Manager.
-If you’re on DSM 7.0 you might not be able to find Plex media server in the Package Center, you can either manually install it or try Emby as an alternative....</p>
-</section>
-<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Setup Plex media server on your Synology NAS" href=https://jsstrn.me/notes/synology-setup-plex-media-server/></a>
+<a class=entry-link aria-label="post link to Setup a home media server with Video Station on Synology NAS" href=https://jsstrn.me/notes/synology-setup-media-server-with-video-station/></a>
 </article>
 </main>
 <footer class=footer>

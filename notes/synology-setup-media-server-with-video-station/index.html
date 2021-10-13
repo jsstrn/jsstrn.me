@@ -3,16 +3,12 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
 <meta name=robots content="index, follow">
-<title>How to download online videos | Jesstern</title>
-<meta name=keywords content="downloads">
-<meta name=description content="Download the youtube-dl command line tool from brew
-brew install youtube-dl youtube-dl supports a huge list of extractors, including popular sites like YouTube and Vimeo.
-List all extractors and pipe it into grep to search for an extractor
-youtube-dl --list-extractors | grep &#34;udemy&#34; To download a video
-youtube-dl &#34;video-url&#34; Simply pass in the cookie file to download videos that require login credentials
-youtube-dl --cookies <path-to-cookie-file> &#34;video-url&#34; You can use a browser extension like cookie.">
+<title>Setup a home media server with Video Station on Synology NAS | Jesstern</title>
+<meta name=keywords content="nas synology">
+<meta name=description content="Setup a home media server with Synology&rsquo;s Video Station.
+Download DS Video to watch your videos on Apple TV and iOS.">
 <meta name=author content="Jesstern Rays">
-<link rel=canonical href=https://jsstrn.me/notes/download-online-videos/>
+<link rel=canonical href=https://jsstrn.me/notes/synology-setup-media-server-with-video-station/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.min.9f1d947375927e9847272b1f4e9be81336f539e513bf04d52cade31f81cad1af.css integrity="sha256-nx2Uc3WSfphHJysfTpvoEzb1OeUTvwTVLK3jH4HK0a8=" rel="preload stylesheet" as=style>
 <script defer crossorigin=anonymous src=/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
 <link rel=icon href=https://jsstrn.me/favicon/favicon.ico>
@@ -23,26 +19,18 @@ youtube-dl --cookies <path-to-cookie-file> &#34;video-url&#34; You can use a bro
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
 <meta name=generator content="Hugo 0.88.1">
-<meta property="og:title" content="How to download online videos">
-<meta property="og:description" content="Download the youtube-dl command line tool from brew
-brew install youtube-dl youtube-dl supports a huge list of extractors, including popular sites like YouTube and Vimeo.
-List all extractors and pipe it into grep to search for an extractor
-youtube-dl --list-extractors | grep &#34;udemy&#34; To download a video
-youtube-dl &#34;video-url&#34; Simply pass in the cookie file to download videos that require login credentials
-youtube-dl --cookies <path-to-cookie-file> &#34;video-url&#34; You can use a browser extension like cookie.">
+<meta property="og:title" content="Setup a home media server with Video Station on Synology NAS">
+<meta property="og:description" content="Setup a home media server with Synology&rsquo;s Video Station.
+Download DS Video to watch your videos on Apple TV and iOS.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://jsstrn.me/notes/download-online-videos/"><meta property="article:section" content="notes">
-<meta property="article:modified_time" content="2021-10-01T14:50:33+08:00">
+<meta property="og:url" content="https://jsstrn.me/notes/synology-setup-media-server-with-video-station/"><meta property="article:section" content="notes">
+<meta property="article:modified_time" content="2021-10-13T16:36:59+08:00">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="How to download online videos">
-<meta name=twitter:description content="Download the youtube-dl command line tool from brew
-brew install youtube-dl youtube-dl supports a huge list of extractors, including popular sites like YouTube and Vimeo.
-List all extractors and pipe it into grep to search for an extractor
-youtube-dl --list-extractors | grep &#34;udemy&#34; To download a video
-youtube-dl &#34;video-url&#34; Simply pass in the cookie file to download videos that require login credentials
-youtube-dl --cookies <path-to-cookie-file> &#34;video-url&#34; You can use a browser extension like cookie.">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Notes","item":"https://jsstrn.me/notes/"},{"@type":"ListItem","position":2,"name":"How to download online videos","item":"https://jsstrn.me/notes/download-online-videos/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"How to download online videos","name":"How to download online videos","description":"Download the youtube-dl command line tool from brew\nbrew install youtube-dl youtube-dl supports a huge list of extractors, including popular sites like YouTube and Vimeo.\nList all extractors and pipe it into grep to search for an extractor\nyoutube-dl --list-extractors | grep \u0026#34;udemy\u0026#34; To download a video\nyoutube-dl \u0026#34;video-url\u0026#34; Simply pass in the cookie file to download videos that require login credentials\nyoutube-dl --cookies \u0026lt;path-to-cookie-file\u0026gt; \u0026#34;video-url\u0026#34; You can use a browser extension like cookie.","keywords":["downloads"],"articleBody":"Download the youtube-dl command line tool from brew\nbrew install youtube-dl youtube-dl supports a huge list of extractors, including popular sites like YouTube and Vimeo.\nList all extractors and pipe it into grep to search for an extractor\nyoutube-dl --list-extractors | grep \"udemy\" To download a video\nyoutube-dl \"video-url\" Simply pass in the cookie file to download videos that require login credentials\nyoutube-dl --cookies  \"video-url\" You can use a browser extension like cookie.txt to extract your cookie file.\n","wordCount":"79","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-10-01T14:50:33+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/download-online-videos/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon/favicon.ico"}}}</script>
+<meta name=twitter:title content="Setup a home media server with Video Station on Synology NAS">
+<meta name=twitter:description content="Setup a home media server with Synology&rsquo;s Video Station.
+Download DS Video to watch your videos on Apple TV and iOS.">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Notes","item":"https://jsstrn.me/notes/"},{"@type":"ListItem","position":2,"name":"Setup a home media server with Video Station on Synology NAS","item":"https://jsstrn.me/notes/synology-setup-media-server-with-video-station/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Setup a home media server with Video Station on Synology NAS","name":"Setup a home media server with Video Station on Synology NAS","description":"Setup a home media server with Synology\u0026rsquo;s Video Station.\nDownload DS Video to watch your videos on Apple TV and iOS.","keywords":["nas synology"],"articleBody":"Setup a home media server with Synology’s Video Station.\nDownload DS Video to watch your videos on Apple TV and iOS.\n","wordCount":"21","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-10-13T16:36:59+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/synology-setup-media-server-with-video-station/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -83,36 +71,28 @@ youtube-dl --cookies <path-to-cookie-file> &#34;video-url&#34; You can use a bro
 <header class=post-header>
 <div class=breadcrumbs><a href=https://jsstrn.me/>Home</a>&nbsp;»&nbsp;<a href=https://jsstrn.me/notes/>Notes</a></div>
 <h1 class=post-title>
-How to download online videos
+Setup a home media server with Video Station on Synology NAS
 </h1>
 <div class=post-meta>1 min&nbsp;·&nbsp;Jesstern Rays
 </div>
 </header>
-<div class=post-content><p>Download the <a href=https://github.com/ytdl-org/youtube-dl><code>youtube-dl</code></a> command line tool from <code>brew</code></p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>brew install youtube-dl
-</code></pre></div><p><code>youtube-dl</code> supports a huge list of extractors, including popular sites like YouTube and Vimeo.</p>
-<p>List all extractors and pipe it into <code>grep</code> to search for an extractor</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>youtube-dl --list-extractors | grep <span style=color:#e6db74>&#34;udemy&#34;</span>
-</code></pre></div><p>To download a video</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>youtube-dl <span style=color:#e6db74>&#34;video-url&#34;</span>
-</code></pre></div><p>Simply pass in the cookie file to download videos that require login credentials</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>youtube-dl --cookies &lt;path-to-cookie-file&gt; <span style=color:#e6db74>&#34;video-url&#34;</span>
-</code></pre></div><p>You can use a browser extension like <a href="https://addons.mozilla.org/en-US/firefox/addon/cookies-txt/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search">cookie.txt</a> to extract your cookie file.</p>
+<div class=post-content><p>Setup a home media server with Synology&rsquo;s <a href=https://www.synology.com/en-us/dsm/feature/video_station>Video Station</a>.</p>
+<p>Download <a href=https://apps.apple.com/us/app/ds-video/id540949418>DS Video</a> to watch your videos on Apple TV and iOS.</p>
 </div>
 <footer class=post-footer>
 <ul class=post-tags>
-<li><a href=https://jsstrn.me/tags/downloads/>downloads</a></li>
+<li><a href=https://jsstrn.me/tags/nas-synology/>nas synology</a></li>
 </ul>
 <nav class=paginav>
-<a class=prev href=https://jsstrn.me/notes/phone-menu-navigation/>
+<a class=prev href=https://jsstrn.me/notes/setting-up-home-media-server/>
 <span class=title>« Prev Page</span>
 <br>
-<span>How to automate phone menu navigation</span>
+<span>Setting up a home media server</span>
 </a>
-<a class=next href=https://jsstrn.me/notes/ruby-install/>
+<a class=next href=https://jsstrn.me/notes/synology-setup-web-server/>
 <span class=title>Next Page »</span>
 <br>
-<span>How to install Ruby on macOS</span>
+<span>Setup a local web server with a Synology NAS</span>
 </a>
 </nav>
 </footer>
