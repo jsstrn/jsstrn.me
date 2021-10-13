@@ -1,7 +1,7 @@
 ---
 title: "Consolidate all your cloud storage data with Cloud Sync"
 
-tags: [nas synology]
+tags: [nas, synology]
 categories: [technology]
 ---
 

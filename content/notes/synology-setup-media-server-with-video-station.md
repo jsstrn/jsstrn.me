@@ -1,7 +1,7 @@
 ---
 title: "Setup a home media server with Video Station on Synology NAS"
 
-tags: [nas synology]
+tags: [nas, synology]
 categories: [technology]
 ---
 

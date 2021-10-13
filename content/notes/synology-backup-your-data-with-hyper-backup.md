@@ -1,7 +1,7 @@
 ---
 title: "Backup your data with Hyper Backup on Synology NAS"
 
-tags: [nas synology]
+tags: [nas, synology]
 categories: [technology]
 ---
 
