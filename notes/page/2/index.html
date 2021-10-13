@@ -73,6 +73,20 @@ The easiest way to browse through these notes is by exploring tags or with searc
 </div>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Clone a repository with submodules
+</h2>
+</header>
+<section class=entry-content>
+<p>Git commands are different for different versions so be sure to check your Git version.
+git --version Clone a repository with submodules using the --recurse-submodules flag. This works for Git version 2.13 or higher.
+git clone --recurse-submodules &lt;remote-repo-url> If the repository has a lot of submodules, then adding the -j8 flag will fetch up to 8 submodules in parallel.
+git clone --recurse-submodules -j8 &lt;remote-repo-url> Alternatively, first clone the repository and then add the submodules....</p>
+</section>
+<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
+<a class=entry-link aria-label="post link to Clone a repository with submodules" href=https://jsstrn.me/notes/git-submodule/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Create a favicon for your site
 </h2>
 </header>
@@ -81,6 +95,22 @@ The easiest way to browse through these notes is by exploring tags or with searc
 </section>
 <footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
 <a class=entry-link aria-label="post link to Create a favicon for your site" href=https://jsstrn.me/notes/generate-favicon/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Create a resume with JSON Resume
+</h2>
+</header>
+<section class=entry-content>
+<p>Install resume-cli tool
+npm install -g resume-cli Create a new resume.json file
+resume init Validate resume.json to ensure it adheres to the schema
+resume validate Export your resume to HTML or PDF with themes
+resume export --format &lt;type> --theme &lt;theme-name> Serve your resume.json locally
+resume serve --theme &lt;theme-name> To host your resume online, create a Gist on GitHub named resume.json and point to http://registry.jsonresume.org/&lt;your-github-username>.</p>
+</section>
+<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
+<a class=entry-link aria-label="post link to Create a resume with JSON Resume" href=https://jsstrn.me/notes/create-resume-with-json/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
@@ -162,29 +192,6 @@ Reference Introducing Extreme Programming </p>
 </section>
 <footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
 <a class=entry-link aria-label="post link to Guidelines for building CLI tools" href=https://jsstrn.me/notes/cli-guidelines/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>History of Singapore
-</h2>
-</header>
-<section class=entry-content>
-<p>Historian PJ Thum narrates the history of Singapore in this podcast series</p>
-</section>
-<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to History of Singapore" href=https://jsstrn.me/notes/history-of-singapore/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>How to assign a .local domain to your Synology NAS server
-</h2>
-</header>
-<section class=entry-content>
-<p>Using an IP address can be quite cumbersome, so let’s assign a .local domain to your NAS.
-Head over to Control Panel and select Network. Under the General tab, set your server name. Click Apply and you can now access your NAS with http://&lt;server-name>.local:5000 from a web browser that’s within the same local network.</p>
-</section>
-<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to How to assign a .local domain to your Synology NAS server" href=https://jsstrn.me/notes/synology-local-domain/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

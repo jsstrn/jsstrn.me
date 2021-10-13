@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>resume on Jesstern</title><link>https://jsstrn.me/tags/resume/</link><description>Recent content in resume on Jesstern</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://jsstrn.me/tags/resume/index.xml" rel="self" type="application/rss+xml"/><item><title>Create a resume with JSON Resume</title><link>https://jsstrn.me/notes/create-resume-with-json/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jsstrn.me/notes/create-resume-with-json/</guid><description>Install resume-cli tool
+npm install -g resume-cli Create a new resume.json file
+resume init Validate resume.json to ensure it adheres to the schema
+resume validate Export your resume to HTML or PDF with themes
+resume export --format &amp;lt;type&amp;gt; --theme &amp;lt;theme-name&amp;gt; Serve your resume.json locally
+resume serve --theme &amp;lt;theme-name&amp;gt; To host your resume online, create a Gist on GitHub named resume.json and point to http://registry.jsonresume.org/&amp;lt;your-github-username&amp;gt;.</description></item></channel></rss>
