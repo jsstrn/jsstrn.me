@@ -22,12 +22,12 @@
 <meta property="og:description" content="A list of the most commonly used Vim commands">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://jsstrn.me/notes/vim-commands/"><meta property="article:section" content="notes">
-<meta property="article:modified_time" content="2021-09-10T19:16:20+08:00">
+<meta property="article:modified_time" content="2021-10-15T18:57:10+08:00">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Useful Vim commands">
 <meta name=twitter:description content="A list of the most commonly used Vim commands">
 <script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Notes","item":"https://jsstrn.me/notes/"},{"@type":"ListItem","position":2,"name":"Useful Vim commands","item":"https://jsstrn.me/notes/vim-commands/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Useful Vim commands","name":"Useful Vim commands","description":"A list of the most commonly used Vim commands","keywords":["vim"],"articleBody":"Settings :set number – show line numbers\nModes Esc – command mode (default mode)\ni – insert mode (before cursor)\na – insert mode (after cursor)\nv – visual mode to select text to y (yank) or d (delete) text\nQuiting Vim :q – quit\n:q! – quit without saving\n:wq – save and quit\n:ZZ – save and quit\nUndo and redo u – undo the previous command\nU – undo the whole line\nCtrl + R – redo the previous command\nCopy and paste yw – yank (copy) a word\nyy – yank (copy) the entire line\ny$ – yank from cursor position to end of line\nyG – yank from cursor position to end of file\np – to put or paste the text that was copied or deleted\nDelete x – delete a character\ndw – delete word\ndd – delete line\nd$ – delete from cursor to end of line\ncw – change word; this will delete the word and put you in insert mode\nNavigation h – move left\nl – move right\nj – move down\nk – move down\n0 – move to start of line\n$ – move to end of line\nnG – move to line number where n is the line number (e.g. 54G goes to line 54)\n[[ – move to start of file\n]] – move to end of file\n","wordCount":"233","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-09-10T19:16:20+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/vim-commands/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon/favicon.ico"}}}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Useful Vim commands","name":"Useful Vim commands","description":"A list of the most commonly used Vim commands","keywords":["vim"],"articleBody":"Settings :set nu – short for :set number to show line numbers :set rnu – short for :set relativenumber to show relative numbers\nModes Esc – command mode (default mode)\ni – insert mode (before cursor)\na – insert mode (after cursor)\nv – visual mode to select text to y (yank) or d (delete) text\nQuiting Vim :q – quit\n:q! – quit without saving\n:wq – save and quit\n:ZZ – save and quit\nUndo and redo u – undo the previous command\nU – undo the whole line\nCtrl + R – redo the previous command\nCopy and paste yw – yank (copy) a word\nyy – yank (copy) the entire line\ny$ – yank from cursor position to end of line\nyG – yank from cursor position to end of file\np – to put or paste the text that was copied or deleted\nDelete x – delete a character\ndw – delete word\ndd – delete line\nd$ – delete from cursor to end of line\ncw – change word; this will delete the word and put you in insert mode\nNavigation h – move left\nl – move right\nj – move down\nk – move down\n0 – move to start of line\n$ – move to end of line\nnG – move to line number where n is the line number (e.g. 54G goes to line 54)\n[[ – move to start of file\n]] – move to end of file\n","wordCount":"249","inLanguage":"en","datePublished":"0001-01-01T00:00:00Z","dateModified":"2021-10-15T18:57:10+08:00","author":{"@type":"Person","name":"Jesstern Rays"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://jsstrn.me/notes/vim-commands/"},"publisher":{"@type":"Organization","name":"Jesstern","logo":{"@type":"ImageObject","url":"https://jsstrn.me/favicon/favicon.ico"}}}</script>
 </head>
 <body id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
@@ -45,6 +45,11 @@
 </span>
 </div>
 <ul id=menu>
+<li>
+<a href=https://jsstrn.me/notes/ title=Notes>
+<span>Notes</span>
+</a>
+</li>
 <li>
 <a href=https://jsstrn.me/about/ title=About>
 <span>About</span>
@@ -74,7 +79,8 @@ Useful Vim commands
 </div>
 </header>
 <div class=post-content><h2 id=settings>Settings<a hidden class=anchor aria-hidden=true href=#settings>#</a></h2>
-<p><code>:set number</code> – show line numbers</p>
+<p><code>:set nu</code> – short for <code>:set number</code> to show line numbers
+<code>:set rnu</code> – short for <code>:set relativenumber</code> to show relative numbers</p>
 <h2 id=modes>Modes<a hidden class=anchor aria-hidden=true href=#modes>#</a></h2>
 <p><code>Esc</code> – command mode (default mode)</p>
 <p><code>i</code> – insert mode (before cursor)</p>
