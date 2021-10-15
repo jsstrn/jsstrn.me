@@ -8,7 +8,8 @@ categories: ["software engineering"]
 
 ## Settings
 
-`:set number` – show line numbers
+`:set nu` – short for `:set number` to show line numbers
+`:set rnu` – short for `:set relativenumber` to show relative numbers
 
 ## Modes
 
