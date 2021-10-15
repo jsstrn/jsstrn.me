@@ -6,7 +6,11 @@ ShowBreadCrumbs: false
 ShowReadingTime: false
 ---
 
-Hello, my name is Jesstern. I live in Singapore where I work as a software engineer.
+Hello there! 👋 My name is Jesstern and this is my personal digital space.
+
+I live in Singapore where I work as a software engineer. You can also find out what I'm working on now and what I use.
+
+![wandering mind](/images/wander.png)
 
 ## Work
 
@@ -22,15 +26,19 @@ I believe it's important to give back to the community. I've volunteered at the 
 
 I've taught as a volunteer instructor at [Code in the Community](https://codeinthecommunity.com/), an initiative by Google and the Singaporean government, for children of disadvantaged backgrounds. 💞
 
-## Hobbies
+## Interests
 
-I enjoy hiking, cycling, swimming, kayaking, and spending time at the beach with an ice cold coconut shake in hand. 🏝 🥥 😎
+My father taught me how to play chess when I was ten years old and I've had a love for the game ever since. I play occasionally on [Lichess](https://lichess.org/@/jsstrn).
 
-My favorite way to consume information is by listening to podcasts and audiobooks.
+I love being in nature and the outdoors. I enjoy hiking, cycling, swimming, kayaking, and spending time at the beach with an ice cold coconut shake in hand. 🏝
 
-## Website
+When I go for long walks in the park I like to listen to podcasts and audiobooks. My all time favorite podcast is [Hidden Brain](https://hiddenbrain.org/) by Shankar Vedantam.
 
-This site is built using [Hugo](https://gohugo.io/) with the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme and hosted on [GitHub](https://pages.github.com/).
+## This website
+
+This website is my personal digital space.
+
+It's built using [Hugo](https://gohugo.io/) with the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme and hosted on [GitHub Pages](https://pages.github.com/).
 
 I keep a collection of short [notes](/notes) as a reference, occasional posts on my [blog](/blog), [projects](/projects) I've built, and some simple [recipes](/recipes).
 
