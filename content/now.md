@@ -1,18 +1,27 @@
 ---
 title: "Now"
-lastmod: .Lastmod
 
 searchHidden: true
 ShowBreadCrumbs: false
 ShowReadingTime: false
 ---
 
-_This is a [now](https://nownownow.com/about) page. Here's what I'm focused on at the moment._
+This is a [now](https://nownownow.com/about) page. Here's what I'm focused on at the moment.
 
-## Wave Music
+## Work 🧑‍💻
 
-I'm building an application for artists to sell their music. 
+- I am currently exploring new opportunities
 
---- 
+## Projects 🏗
 
-This page was last updated on 20 Sep 2021 in Telok Blangah, Singapore.
+- I've been writing a lot more on [jsstrn.me](https://jsstrn.me/)
+- I'm configuring my Synology NAS to get more utility out of it
+- I'm trying to get rid of stuff I don't use and unclutter my home
+
+## Leisure 🏝
+
+- I've been following along the trial of Elizabeth Holmes on podcasts. Another podcast series I recently finished is the AWARE Saga
+
+---
+
+{{< last-modified-date >}}
