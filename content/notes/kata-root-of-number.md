@@ -1,7 +1,7 @@
 ---
-title: "🥋 Find the root of a number"
+title: "Find the root of a number"
 
-tags: [interviews, kata]
+tags: [kata]
 categories: [software engineering]
 ---
 
@@ -18,7 +18,7 @@ Suppose the real root is `y`, then
 
 ## Solution
 
-{{% details summary="Reveal solution" %}}
+{{% collapse title="Reveal solution" %}}
 
 ```js
 /*
@@ -62,4 +62,4 @@ function root(x, n) {
 }
 ```
 
-{{% /details %}}
+{{% /collapse %}}
