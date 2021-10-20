@@ -78,6 +78,19 @@ The easiest way to browse through these notes is by exploring tags or with searc
 </div>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Find the root of a number
+</h2>
+</header>
+<section class=entry-content>
+<p>Question Implement a function root that calculates the n’th root of a number.
+The function takes a non-negative number x and a positive integer n and returns the positive n’th root of x within an error of 0.001. Suppose the real root is y, then
+|y - root(x, n)| &lt; 0.001 Solution Reveal solution /* time complexity: O(n) space complexity: O(1) */ function root(x, n) { if (n === 0) { return 0; } if (n === 1) { return x; } let lower = 0; let upper = x; let guess = (upper + lower) / 2; let tolerance = 0....</p>
+</section>
+<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
+<a class=entry-link aria-label="post link to Find the root of a number" href=https://jsstrn.me/notes/kata-root-of-number/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Getting started with Pi-hole
 </h2>
 </header>
@@ -184,19 +197,6 @@ youtube-dl --cookies &lt;path-to-cookie-file> "video-url" You can use a browser 
 </section>
 <footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
 <a class=entry-link aria-label="post link to How to install Ruby on macOS" href=https://jsstrn.me/notes/ruby-install/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>How to structure your unit tests
-</h2>
-</header>
-<section class=entry-content>
-<p>When writing test cases, we can organize our tests into three segments
-Arrange – set variables, stubs, mocks, spies, etc Act – the action that you wish to assert on Assert – make an assertion on the expected and actual results Here’s a simple example:
-test("renders correct number of books", () => { // arrange const books = [ {title: "Animal Farm", author: "George Orwell"}, {title: "Nineteen Eighty-Four", author: "George Orwell"}, {title: "Down and Out in Paris and London", author: "George Orwell"}, ] // act const { queryAllByTestId } = render(&lt;BookList books={books} />); // assert expect(queryAllByTestId('book-item')....</p>
-</section>
-<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to How to structure your unit tests" href=https://jsstrn.me/notes/testing-arrange-act-assert/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
