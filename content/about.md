@@ -8,8 +8,6 @@ ShowReadingTime: false
 
 Hello there! 👋 My name is Jesstern and this is my personal digital space.
 
-I live in Singapore where I work as a software engineer. You can also find out what I'm working on now and what I use.
-
 ![wandering mind](/images/wander.png)
 
 ## Work
