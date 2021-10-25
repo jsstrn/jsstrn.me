@@ -2,7 +2,7 @@
 title: "Sign your commits"
 summary: "How to sign your Git commits with a GPG key"
 
-tags: [git, gpg]
+tags: [git, gpg, pgp]
 categories: [software engineering]
 ---
 
@@ -46,21 +46,21 @@ List all your secret keys and display the key ID in long form
 gpg --list-secret-keys --keyid-format=long
 ```
 
-Copy the long form of the GPG key ID. In this example, the GPG key ID is `3AA5C34371567BD2`
+Copy the long form of the GPG key ID.
 
 ```sh
-/Users/hubot/.gnupg/secring.gpg
-------------------------------------
-sec   4096R/3AA5C34371567BD2 2016-03-10 [expires: 2017-03-10]
-uid                          Hubot 
+sec   4096R/<YOUR-GPG-KEY-ID> 2016-03-10 [expires: 2017-03-10]
+uid                  [ultimate] YOUR NAME <youe@email.com>
 ssb   4096R/42B317FD4BA89E7A 2016-03-10
 ```
 
-Next, add your GPG key ID to your Git configuration
+Next, add your GPG key ID to your local Git configuration
 
 ```sh
-git config --global user.signingkey <YOUR-GPG-KEY-ID>
+git config --local user.signingkey <YOUR-GPG-KEY-ID>
 ```
+
+Of course, you can set this globally with the `--global` flag, but it might not be a good idea to do this in case you have more than one key used for different purposes (e.g. personal and work).
 
 ## Signing your commits
 
@@ -70,19 +70,31 @@ To sign your commits via the terminal
 git commit -S -m "Your commit message"
 ```
 
-## Set commit signing by default
+## Set commit signing by default (optional)
 
 To sign commits by default in a local repository
 
 ```sh
-git config commit.gpgsign true
+git config --local commit.gpgsign true
 ```
 
-To do this for all repositories on your computer
+Again, you could set this globally with the `global` flag, but it may not be a wise to do so if you have both personal and work projects on the same computer.
+
+## Test to see if it all works
+
+To check if you are now able to sign with your default key
 
 ```sh
-git config --global commit.gpgsign true
+echo "test" | gpg --clearsign
 ```
+
+To use a different key append `--local-user` or `-u`
+
+```sh
+echo "test" | gpg --clearsign --local-user <YOUR-GPG-KEY-ID>
+```
+
+If it works, you should get a prompt to enter your passphrase and the corresponding hash output.
 
 ## Storing your GPG key pair
 
