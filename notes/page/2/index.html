@@ -78,6 +78,20 @@ The easiest way to browse through these notes is by exploring tags or with searc
 </div>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Avoid using toBeTruthy() and toBeFalsy() matchers
+</h2>
+</header>
+<section class=entry-content>
+<p>Test assertions should be explicit.
+If I’m trying to assert that something should be true I avoid using the toBeTruthy() matcher.
+It’s important to realize that in JavaScript, all values are truthy unless they are defined as falsy. This means that as long as result is not a falsy value (e.g. false, "", null, undefined, NaN, etc.), the assertion will pass.
+expect(result).toBeTruthy() // passes if result is {} or [] or 1 Contrast it with this approach where result will only pass if its value is true....</p>
+</section>
+<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
+<a class=entry-link aria-label="post link to Avoid using toBeTruthy() and toBeFalsy() matchers" href=https://jsstrn.me/notes/jest-avoid-tobetruthy-tobefalsy/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Backup your data with Hyper Backup on Synology NAS
 </h2>
 </header>
@@ -188,19 +202,6 @@ ssh &lt;user>@&lt;server-name>.local You will be prompted for your password.</p>
 </section>
 <footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
 <a class=entry-link aria-label="post link to Connect to your Synology NAS with SSH" href=https://jsstrn.me/notes/synology-connect-via-ssh/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Consistency vs. availability
-</h2>
-</header>
-<section class=entry-content>
-<p>Let’s consider the following scenario, Arya and Bhavani want to collaborate on an online document.
-Always consistent, but not always available One approach is when one person is working on the document, the document is locked to prevent the other person from working on it at the same time. This is the approach used in WordPress.
-The trade-off here is that the document remains locked as long as one person has the document opened, making it unavailable for anyone else to work on it....</p>
-</section>
-<footer class=entry-footer>2 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Consistency vs. availability" href=https://jsstrn.me/notes/consistency-vs-availability/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
