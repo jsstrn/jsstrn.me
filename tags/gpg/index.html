@@ -71,6 +71,34 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Installing GPG Suite on macOS
+</h2>
+</header>
+<section class=entry-content>
+<p>You don’t actually need to install GPG Suite. You can access all your GPG keys via the gpg command line tool via your terminal.
+Installing GPG Suite gives you the GPG Keychain which makes it easier for you to view all your keys and to store your passphrase in the keychain so that you don’t have to keep typing it in all the time.
+You can either download and install GPG Suite directly from their website or via Homebrew....</p>
+</section>
+<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
+<a class=entry-link aria-label="post link to Installing GPG Suite on macOS" href=https://jsstrn.me/notes/install-gpg-tools/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>Save your GPG key passphrase to Keychain
+</h2>
+</header>
+<section class=entry-content>
+<p>If you use your GPG key to sign your commits you will have to key in your passphrase each time you make a new commit. You can save your passphrase to Keychain with the help of Pinentry Mac.
+Install pinentry-mac from Homebrew
+brew install pinentry-mac Open the configuration file to your gpg-agent located at ~/.gnupg/gpg-agent.conf and set your pinentry-program to pinentry-mac
+vim ~/.gnupg/gpg-agent.conf pinentry-program /usr/local/bin/pinentry-mac Restart gpg-agent
+gpgconf --kill all Now when you are prompted to type in your passphrase for your GPG key, it will use Pinentry Mac with the option to “Save in Keychain....</p>
+</section>
+<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
+<a class=entry-link aria-label="post link to Save your GPG key passphrase to Keychain" href=https://jsstrn.me/notes/gpg-save-passphrase-to-keychain/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Sign your commits
 </h2>
 </header>
@@ -79,6 +107,19 @@
 </section>
 <footer class=entry-footer>3 min&nbsp;·&nbsp;Jesstern Rays</footer>
 <a class=entry-link aria-label="post link to Sign your commits" href=https://jsstrn.me/notes/git-sign-commits/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>Using SSH and GPG keys
+</h2>
+</header>
+<section class=entry-content>
+<p>With most remote Git servers such as GitHub and GitLab, you will see both SSH and GPG keys and you might be wondering what they are used for.
+SSH keys SSH keys are used for authenticating with the remote Git server without you requiring to key in your username and password.
+We want to associate an SSH key with your computer’s identity so generate an SSH key for each device. In the event that you lose your computer, you can revoke the SSH key and commits coming from that device will no longer be allowed....</p>
+</section>
+<footer class=entry-footer>2 min&nbsp;·&nbsp;Jesstern Rays</footer>
+<a class=entry-link aria-label="post link to Using SSH and GPG keys" href=https://jsstrn.me/notes/gpg-ssh-keys/></a>
 </article>
 </main>
 <footer class=footer>

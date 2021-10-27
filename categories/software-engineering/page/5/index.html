@@ -71,6 +71,17 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>RealWorld example applications
+</h2>
+</header>
+<section class=entry-content>
+<p>The mother of all demo apps</p>
+</section>
+<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
+<a class=entry-link aria-label="post link to RealWorld example applications" href=https://jsstrn.me/notes/real-world-app/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Repeating keys stopped working in macOS
 </h2>
 </header>
@@ -130,6 +141,21 @@ Typically, I would use the console on my browser, but that has its limitations. 
 </article>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Save your GPG key passphrase to Keychain
+</h2>
+</header>
+<section class=entry-content>
+<p>If you use your GPG key to sign your commits you will have to key in your passphrase each time you make a new commit. You can save your passphrase to Keychain with the help of Pinentry Mac.
+Install pinentry-mac from Homebrew
+brew install pinentry-mac Open the configuration file to your gpg-agent located at ~/.gnupg/gpg-agent.conf and set your pinentry-program to pinentry-mac
+vim ~/.gnupg/gpg-agent.conf pinentry-program /usr/local/bin/pinentry-mac Restart gpg-agent
+gpgconf --kill all Now when you are prompted to type in your passphrase for your GPG key, it will use Pinentry Mac with the option to “Save in Keychain....</p>
+</section>
+<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
+<a class=entry-link aria-label="post link to Save your GPG key passphrase to Keychain" href=https://jsstrn.me/notes/gpg-save-passphrase-to-keychain/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Security tools and resources
 </h2>
 </header>
@@ -162,30 +188,6 @@ One solution might be to use media queries, but it’s actually not necessary in
 </section>
 <footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
 <a class=entry-link aria-label="post link to Set width in CSS without media queries" href=https://jsstrn.me/notes/css-set-width-without-media-queries/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Setting up a home media server
-</h2>
-</header>
-<section class=entry-content>
-<p>NAS server If you have a NAS server, you can install Plex or Emby as your media server. Both Plex and Emby have clients for Apple TV and other devices.
-Raspberry Pi If you have a Raspberry Pi, its relatively simple to turn it into a media server with OSMC and connect it directly to a TV. The downside is that you’ll need to use a keyboard to navigate around....</p>
-</section>
-<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Setting up a home media server" href=https://jsstrn.me/notes/setting-up-home-media-server/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Shortcut key to insert emoji and symbols on macOS
-</h2>
-</header>
-<section class=entry-content>
-<p>Just press Control-Command-Space on your keyword to open up the Emoji & Symbols window. Select or search for an emoji.
-Click the small icon to the right of the search bar to bring up the character viewer to select more symbols.</p>
-</section>
-<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Shortcut key to insert emoji and symbols on macOS" href=https://jsstrn.me/notes/macos-emoji-and-symbols/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

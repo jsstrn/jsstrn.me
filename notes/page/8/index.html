@@ -78,6 +78,18 @@ The easiest way to browse through these notes is by exploring tags or with searc
 </div>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Retrospective Prime Directive
+</h2>
+</header>
+<section class=entry-content>
+<p>The purpose of the prime directive is to ensure that everyone in the team understands that this process is not about finding fault with others or to blame others for issues brought up during the retrospective.
+Regardless of what we discover, we understand and truly believe that everyone did the best job they could, given what they knew at the time, their skills and abilities, the resources available, and the situation at hand....</p>
+</section>
+<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
+<a class=entry-link aria-label="post link to Retrospective Prime Directive" href=https://jsstrn.me/notes/retrospective-prime-directive/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Run JavaScript and TypeScript with RunJS
 </h2>
 </header>
@@ -98,6 +110,21 @@ Typically, I would use the console on my browser, but that has its limitations. 
 </section>
 <footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
 <a class=entry-link aria-label="post link to Run Jest tests that match a describe block" href=https://jsstrn.me/notes/jest-match-name-tests/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Save your GPG key passphrase to Keychain
+</h2>
+</header>
+<section class=entry-content>
+<p>If you use your GPG key to sign your commits you will have to key in your passphrase each time you make a new commit. You can save your passphrase to Keychain with the help of Pinentry Mac.
+Install pinentry-mac from Homebrew
+brew install pinentry-mac Open the configuration file to your gpg-agent located at ~/.gnupg/gpg-agent.conf and set your pinentry-program to pinentry-mac
+vim ~/.gnupg/gpg-agent.conf pinentry-program /usr/local/bin/pinentry-mac Restart gpg-agent
+gpgconf --kill all Now when you are prompted to type in your passphrase for your GPG key, it will use Pinentry Mac with the option to “Save in Keychain....</p>
+</section>
+<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
+<a class=entry-link aria-label="post link to Save your GPG key passphrase to Keychain" href=https://jsstrn.me/notes/gpg-save-passphrase-to-keychain/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
@@ -168,32 +195,6 @@ Download DS Video to watch your videos on Apple TV and iOS.</p>
 </section>
 <footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
 <a class=entry-link aria-label="post link to Setup a home media server with Video Station on Synology NAS" href=https://jsstrn.me/notes/synology-setup-media-server-with-video-station/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Setup a local web server with a Synology NAS
-</h2>
-</header>
-<section class=entry-content>
-<p>Go to Package Center and install Web Station. Now you should be able to see a default webpage when you visit http://&lt;your-ip-address> or http://&lt;server-name>.local (the default port is 80).
-To edit the webpage, go to the web directory in your File Station.
-Note that the website is only accessible within your local network. If you want to be access it via the internet you’ll need to setup DDNS.</p>
-</section>
-<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Setup a local web server with a Synology NAS" href=https://jsstrn.me/notes/synology-setup-web-server/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Setup Plex media server on your Synology NAS
-</h2>
-</header>
-<section class=entry-content>
-<p>Plex is no longer listed as a third-party package on Package Manager for DSM 7.0 and the one that is listed for DSM 6.2 is outdated, so you have to manually install the media server.
-Download Plex media server for Synology and manually install the package with Package Manager.
-If you’re on DSM 7.0 you might not be able to find Plex media server in the Package Center, you can either manually install it or try Emby as an alternative....</p>
-</section>
-<footer class=entry-footer>1 min&nbsp;·&nbsp;Jesstern Rays</footer>
-<a class=entry-link aria-label="post link to Setup Plex media server on your Synology NAS" href=https://jsstrn.me/notes/synology-setup-plex-media-server/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
