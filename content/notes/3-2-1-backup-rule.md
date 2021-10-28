@@ -1,13 +1,13 @@
 ---
 title: "The 3-2-1 backup rule"
 
-tags: []
+tags: [best practices]
 categories: [software engineering]
 ---
 
 - Create 3 copies of your data – 1 primary and 2 backup copies
-- Have 2 types of storage mediums – 
-- Store 1 of these backups offsite
+- Have 2 types of storage mediums – e.g. hard disk drives and cloud storage 
+- Store 1 of these backups offsite – preferably on the cloud
 
 Let's say you have some files on your computer. You want to make a backup copy of your files on an external hard disk drive and have another copy on a cloud storage.
 
