@@ -8,8 +8,6 @@ ShowReadingTime: false
 
 Hello there! 👋 My name is Jesstern and this is my personal digital space.
 
-![wandering mind](/images/wander.png)
-
 ## Work
 
 I am currently exploring new opportunities.
