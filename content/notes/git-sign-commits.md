@@ -57,10 +57,10 @@ ssb   4096R/42B317FD4BA89E7A 2016-03-10
 Next, add your GPG key ID to your local Git configuration
 
 ```sh
-git config --local user.signingkey <YOUR-GPG-KEY-ID>
+git config --local user.signingKey <YOUR-GPG-KEY-ID>
 ```
 
-Of course, you can set this globally with the `--global` flag, but it might not be a good idea to do this in case you have more than one key used for different purposes (e.g. personal and work).
+Of course, you can set this globally with the `--global` flag, but it might not be a good idea to do this in case you have more than one key used for different purposes (e.g. personal and work). Best to do this on a per repository level.
 
 ## Signing your commits
 
@@ -75,7 +75,7 @@ git commit -S -m "Your commit message"
 To sign commits by default in a local repository
 
 ```sh
-git config --local commit.gpgsign true
+git config --local commit.gpgSign true
 ```
 
 Again, you could set this globally with the `global` flag, but it may not be a wise to do so if you have both personal and work projects on the same computer.
