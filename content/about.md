@@ -10,8 +10,6 @@ Hello there! 👋 My name is Jesstern and this is my personal digital space.
 
 ## Work
 
-I am currently exploring new opportunities.
-
 I work on both frontend and backend web development with software testing and high test coverage. I am a proponent of test driven development and pair programming which is part of [extreme programming](/notes/agile-extreme-programming).
 
 I was previously at [Thoughtworks](https://www.thoughtworks.com/) as a software engineer and consultant where I worked with several small and medium companies as well as large enterprises. Prior to that I developed software with various content management systems and frameworks. 🧑‍💻
@@ -30,11 +28,9 @@ I love being in nature and the outdoors. I enjoy hiking, cycling, swimming, kaya
 
 When I go for long walks in the park I like to listen to podcasts and audiobooks. My all time favorite podcast is [Hidden Brain](https://hiddenbrain.org/) by Shankar Vedantam.
 
-## This website
+## Colophon
 
-This website is my personal digital space.
-
-It's built using [Hugo](https://gohugo.io/) with the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme and hosted on [GitHub Pages](https://pages.github.com/).
+This website is built using [Hugo](https://gohugo.io/) with the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme and hosted on [GitHub Pages](https://pages.github.com/).
 
 I keep a collection of short [notes](/notes) as a reference, occasional posts on my [blog](/blog), [projects](/projects) I've built, and some simple [recipes](/recipes).
 
