@@ -13,10 +13,15 @@ Install `pinentry-mac` from Homebrew
 brew install pinentry-mac
 ```
 
-Open the configuration file to your `gpg-agent` located at `~/.gnupg/gpg-agent.conf` and set your `pinentry-program` to `pinentry-mac`
+Open the configuration file to your `gpg-agent` located at `~/.gnupg/gpg-agent.conf` with `vim` or your favorite editor. 
 
 ```sh
 vim ~/.gnupg/gpg-agent.conf
+```
+
+Add this line to set your `pinentry-program` to `pinentry-mac`
+
+```sh
 pinentry-program /usr/local/bin/pinentry-mac
 ```
 
@@ -27,3 +32,5 @@ gpgconf --kill all
 ```
 
 Now when you are prompted to type in your passphrase for your GPG key, it will use Pinentry Mac with the option to "Save in Keychain."
+
+That's it. You should not need to key in your passphrase the next time.
