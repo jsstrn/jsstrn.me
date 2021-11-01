@@ -42,7 +42,7 @@ Muscles – Chest, shoulders, and triceps
 Muscles – Back and biceps
 
 - McGill Big Three
-- Farmer walk
+- Farmer's walk
 - Exercise 1: Single arm dumbbell supported row (horizontal pull)
 - Exercise 2: Banded pull down (vertical pull)
 - Exercise 3: Band assisted pull up (vertical pull)
@@ -62,7 +62,7 @@ Muscles – Lower body
 Muscles – Chest, shoulders, and triceps
 
 - McGill Big Three
-- Farmer walk
+- Farmer's walk
 - Exercise 1: Dumbbell floor press (horizontal push)
 - Exercise 2: Dumbbell overhead press (vertical push)
 - Exercise 3: Dumbbell tricep kickback (vertical push)
@@ -82,12 +82,10 @@ Muscles – Back and biceps
 Muscles – Lower body
 
 - McGill Big Three
-- Farmer walk
+- Farmer's walk
 - Exercise 1: Dumbbell goblet squat (squat)
 - Exercise 2: Romanian deadlift (hinge)
 - Exercise 3: Dynamic lunge (lunge)
-
-
 
 ## Rest-Pause method
 
@@ -146,7 +144,7 @@ Core flexion
 : McGill Big Three
 
 Carry
-: Suitcase walk, farmers walk
+: Suitcase walk, farmer's walk
 
 ## Videos
 
