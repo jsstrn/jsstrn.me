@@ -31,8 +31,7 @@ Additionally, the exercises listed here are mostly suitable for home workouts.
 
 Muscles – Chest, shoulders, and triceps
 
-- McGill Big Three
-- Suitcase walk
+- Suitcase walk (carry)
 - Exercise 1: Push-up (horizontal push)
 - Exercise 2: Single arm dumbbell press (vertical push)
 - Exercise 3: Dumbbell tricep kickback (vertical push)
@@ -41,18 +40,16 @@ Muscles – Chest, shoulders, and triceps
 
 Muscles – Back and biceps
 
-- McGill Big Three
-- Farmer's walk
-- Exercise 1: Single arm dumbbell supported row (horizontal pull)
+- Farmer's walk (carry)
+- Exercise 1: Banded seated row (horizontal pull)
 - Exercise 2: Banded pull down (vertical pull)
-- Exercise 3: Band assisted pull up (vertical pull)
+- Exercise 3: Bicep curl (vertical pull)
 
 ### Wednesday (Legs)
 
 Muscles – Lower body
 
-- McGill Big Three
-- Suitcase walk
+- Suitcase walk (carry)
 - Exercise 1: Dumbbell drop squat (squat)
 - Exercise 2: Banded pull through (hinge)
 - Exercise 3: Static lunge (lunge)
@@ -61,8 +58,7 @@ Muscles – Lower body
 
 Muscles – Chest, shoulders, and triceps
 
-- McGill Big Three
-- Farmer's walk
+- Farmer's walk (carry)
 - Exercise 1: Dumbbell floor press (horizontal push)
 - Exercise 2: Dumbbell overhead press (vertical push)
 - Exercise 3: Dumbbell tricep kickback (vertical push)
@@ -71,18 +67,16 @@ Muscles – Chest, shoulders, and triceps
 
 Muscles – Back and biceps
 
-- McGill Big Three
-- Suitcase walk
-- Exercise 1: Single arm dumbbell supported row (horizontal pull)
+- Suitcase walk (carry)
+- Exercise 1: Banded seated row (horizontal pull)
 - Exercise 2: Banded pull up (vertical pull)
-- Exercise 3: Band assisted pull up (vertical pull)
+- Exercise 3: Bicep curl (vertical pull)
 
 ### Saturday (Legs)
 
 Muscles – Lower body
 
-- McGill Big Three
-- Farmer's walk
+- Farmer's walk (carry)
 - Exercise 1: Dumbbell goblet squat (squat)
 - Exercise 2: Romanian deadlift (hinge)
 - Exercise 3: Dynamic lunge (lunge)
@@ -99,52 +93,25 @@ I use the [Interval Timer](https://apps.apple.com/sg/app/interval-timer/id112429
 
 ## Movement patterns
 
-### Push
+- Push
 
-Muscles
-: Chest, shoulders, and triceps
+  - Horizontal push
+  - Vertical push
 
-Horizontal push
-: Push-up, dumbbell bench press
+- Pull
 
-Vertical push
-: Single arm dumbbell press, dumbbell overhead press
+  - Horizontal pull
+  - Vertical pull
 
-### Pull
+- Legs
 
-Muscles
-: Back and biceps
+  - Squat
+  - Hinge
+  - Lunge
 
-Horizontal pull
-: Single arm dumbbell supported row
-
-Vertical pull
-: Banded pulldown, band assisted pull-ups, pull-ups
-
-### Legs
-
-Muscles
-: Quadriceps and hips
-
-Squat
-: Dumbbell drop squat, dumbbell goblet squat
-
-Hinge
-: Cable pull through, Romanian deadlift
-
-Lunge
-: Static lunge, Bulgarian lunge (bodyweight/weighted)
-
-### Core
-
-Muscles
-: Core
-
-Core flexion
-: McGill Big Three
-
-Carry
-: Suitcase walk, farmer's walk
+- Core
+  - Core flexion
+  - Carry
 
 ## Videos
 
