@@ -17,7 +17,7 @@
 <link rel=mask-icon href=https://jsstrn.me/favicon/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.88.1">
+<meta name=generator content="Hugo 0.89.0">
 <meta property="og:title" content="Create an array from range of numbers">
 <meta property="og:description" content="How to create an array of elements based on a range of numbers in JavaScript">
 <meta property="og:type" content="article">
@@ -92,18 +92,18 @@ Create an array from range of numbers
 
 <span style=color:#75715e>// numbers =&gt; [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
 </span></code></pre></div><p>Perhaps the most elegant solution is to use <code>Array.from()</code></p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>numbers</span> <span style=color:#f92672>=</span> Array.<span style=color:#a6e22e>from</span>({ <span style=color:#a6e22e>length</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>10</span> }, (<span style=color:#ae81ff>_</span>, <span style=color:#a6e22e>i</span>) =&gt; <span style=color:#a6e22e>i</span>)
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>numbers</span> <span style=color:#f92672>=</span> Array.<span style=color:#a6e22e>from</span>({ <span style=color:#a6e22e>length</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>10</span> }, (<span style=color:#a6e22e>_</span>, <span style=color:#a6e22e>i</span>) =&gt; <span style=color:#a6e22e>i</span>)
 
 <span style=color:#75715e>// numbers =&gt; [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
 </span></code></pre></div><p><code>Array.from()</code> takes an array-like object as its first argument and a map function that will be applied to each element. In this case, we pass an object with a <code>length</code> property and then we take just return the index from the map function.</p>
 <p>If we wanted to start our list at 1 instead, then we can do this</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js>Array.<span style=color:#a6e22e>from</span>({ <span style=color:#a6e22e>length</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>10</span> }, (<span style=color:#ae81ff>_</span>, <span style=color:#a6e22e>i</span>) =&gt; <span style=color:#a6e22e>i</span> <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>)
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js>Array.<span style=color:#a6e22e>from</span>({ <span style=color:#a6e22e>length</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>10</span> }, (<span style=color:#a6e22e>_</span>, <span style=color:#a6e22e>i</span>) =&gt; <span style=color:#a6e22e>i</span> <span style=color:#f92672>+</span> <span style=color:#ae81ff>1</span>)
 
 <span style=color:#75715e>// numbers =&gt; [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 </span></code></pre></div><p>Or, more generally, if we wanted include 10 numbers starting from a certain number</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js><span style=color:#66d9ef>const</span> <span style=color:#a6e22e>startingNumber</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>3</span>
 
-Array.<span style=color:#a6e22e>from</span>({<span style=color:#a6e22e>length</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>10</span>}, (<span style=color:#ae81ff>_</span>, <span style=color:#a6e22e>i</span>) =&gt; <span style=color:#a6e22e>i</span> <span style=color:#f92672>+</span> <span style=color:#a6e22e>startingNumber</span>)
+Array.<span style=color:#a6e22e>from</span>({<span style=color:#a6e22e>length</span><span style=color:#f92672>:</span> <span style=color:#ae81ff>10</span>}, (<span style=color:#a6e22e>_</span>, <span style=color:#a6e22e>i</span>) =&gt; <span style=color:#a6e22e>i</span> <span style=color:#f92672>+</span> <span style=color:#a6e22e>startingNumber</span>)
 
 <span style=color:#75715e>// numbers =&gt; [ 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 ]
 </span></code></pre></div><h2 id=references>References<a hidden class=anchor aria-hidden=true href=#references>#</a></h2>
