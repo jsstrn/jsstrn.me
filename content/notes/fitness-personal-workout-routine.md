@@ -21,6 +21,8 @@ Additionally, the exercises listed here are mostly suitable for home workouts.
 
 ## Workout routine
 
+All exercise set should be completed to [form failure](https://en.wikipedia.org/wiki/Training_to_failure#Types_of_failure) where additional repetitions cannot be performed without losing proper form or technique.
+
 ### McGill Big Three
 
 - Exercise 1: Bird dog, hold for 10 sec x 5-10 reps
@@ -68,7 +70,7 @@ Muscles – Chest, shoulders, and triceps
 Muscles – Back and biceps
 
 - Suitcase walk (carry)
-- Exercise 1: Banded seated row (horizontal pull)
+- Exercise 1: Banded low row (horizontal pull)
 - Exercise 2: Banded pull up (vertical pull)
 - Exercise 3: Bicep curl (vertical pull)
 
