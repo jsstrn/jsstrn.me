@@ -18,7 +18,7 @@ I was previously at [Thoughtworks](https://www.thoughtworks.com/) as a software 
 
 I believe it's important to give back to the community. I've volunteered at the Singapore chapter of [Junior Dev](https://juniordev.io/) and SingaporeJS hosting and organizing events for technical talks and workshops.
 
-I have been a facilitator for numerous Global Day Coderetreat events where we focus on teaching principles of test-driven development and pair programming.
+I have been a facilitator for numerous [Coderetreat](https://www.coderetreat.org/?seed=3905) events in Singapore where we focus on practicing professional software engineering approaches with test-driven development and pair programming.
 
 I've taught as a volunteer instructor at [Code in the Community](https://codeinthecommunity.com/), an initiative by Google and the Singaporean government, for children of disadvantaged backgrounds. 💞
 
