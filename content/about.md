@@ -16,7 +16,9 @@ I was previously at [Thoughtworks](https://www.thoughtworks.com/) as a software 
 
 ## Community
 
-I believe it's important to give back to the community. I've volunteered at the Singapore chapter of [Junior Dev](https://juniordev.io/) and SingaporeJS.
+I believe it's important to give back to the community. I've volunteered at the Singapore chapter of [Junior Dev](https://juniordev.io/) and SingaporeJS hosting and organizing events for technical talks and workshops.
+
+I have been a facilitator for numerous Global Day Coderetreat events where we focus on teaching principles of test-driven development and pair programming.
 
 I've taught as a volunteer instructor at [Code in the Community](https://codeinthecommunity.com/), an initiative by Google and the Singaporean government, for children of disadvantaged backgrounds. 💞
 
@@ -26,7 +28,7 @@ My father taught me how to play chess when I was ten years old and I've had a lo
 
 I love being in nature and the outdoors. I enjoy hiking, cycling, swimming, kayaking, and spending time at the beach with an ice cold coconut shake in hand. 🏝
 
-When I go for long walks in the park I like to listen to podcasts and audiobooks. My all time favorite podcast is [Hidden Brain](https://hiddenbrain.org/) by Shankar Vedantam.
+When I go for long walks in the park I like to listen to podcasts and audiobooks. My favorite podcasts are [Hidden Brain](https://hiddenbrain.org/) by Shankar Vedantam and more recently [Game Changers](https://podcasts.apple.com/gb/podcast/gamechangers-from-the-economist/id1572322263) by The Economist.
 
 ## Colophon
 
