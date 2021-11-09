@@ -16,6 +16,14 @@ According to Dr Alessio Fasano, gluten is a toxin to human beings and we are una
 
 The problem with gluten is that it causes inflammation and results in something called leaky gut syndrome or intestinal permeability. An important task of the intestine is to form a defensive barrier to prevent absorption of damaging substances during digestion. When the permeability of the intestinal walls are compromised, harmful substances are able to leak into the blood stream.
 
+Here's a list of foods that cause inflammation:
+
+- refined carbohydrates, such as white bread and pastries
+- fries and other fried foods
+- soda and other sugar-sweetened beverages
+- red meat (burgers, steaks) and processed meat (hot dogs, sausage)
+- margarine, shortening, and lard
+
 Chronic inflammation has been linked to many diseases, including heart disease, cancer, diabetes, autism, arthritis, depression, and Alzheimer's.
 
 ## Books
