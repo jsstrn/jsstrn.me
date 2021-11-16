@@ -1,6 +1,9 @@
 ---
 title: "My personal workout routine"
 
+ShowToc: true
+TocOpen: true
+
 tags: [fitness]
 categories: [Health & Fitness]
 ---
