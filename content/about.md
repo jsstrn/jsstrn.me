@@ -12,7 +12,7 @@ Hello there! 👋 My name is Jesstern and this is my personal digital space.
 
 I work on both frontend and backend web development with software testing and high test coverage. I am a proponent of test driven development and pair programming which is part of [extreme programming](/notes/agile-extreme-programming).
 
-I was previously at [Thoughtworks](https://www.thoughtworks.com/) as a software engineer and consultant where I worked with several small and medium companies as well as large enterprises. Prior to that I developed software with various content management systems and frameworks. 🧑‍💻
+I was previously at [Thoughtworks](https://www.thoughtworks.com/) as a software engineer and technical consultant where I worked with several small and medium companies as well as large enterprises. Prior to that I worked as a freelance web developer. 🧑‍💻
 
 ## Community
 
