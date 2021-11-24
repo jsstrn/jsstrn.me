@@ -1,6 +1,6 @@
 ---
 date: 2021-01-05T01:21:42+08:00
-title: "Beware the lame JavaScript interview question"
+title: "Beware the lame interview question"
 
 tags: ["interviews"]
 categories: ["software engineering"]
@@ -25,13 +25,19 @@ It's not "outside".
 
 It's not "inside" either.
 
-It's actually "undefined" because of the hoisted variable.
+The correct answer is `undefined` because of the hoisted variable.
 
-The question is trying to test your understanding on variable hoisting when using the `var` keyword, but we should not even be using `var` in modern JavaScript in the first place.
+## Why it's lame
 
-I would argue that this is not a good type of interview question. Being able to answer this question just tests how good of a compiler you are. Humans are not machines. It's far more important to determine what is bad code and to know how to retify it.
+Actually, the correct answer should be, "Why are you writing code this way in the first place?"
 
-The real issue with this code is that it is poorly written. All too often I see companies with interviews like these and then they wonder why their programmers write code so poorly.
+The question is trying to test your understanding on variable hoisting when using the `var` keyword, but any decent programmer would know to use `const` or `let` instead of `var`.
+
+I would argue that this is not a good type of interview question. Being able to answer this question just tests how good of a compiler you are. Humans are not machines. It's far more important to determine what is bad code and to know how to rectify it.
+
+The real issue with this code is that it is poorly written. All too often I see companies with interviews like these and then they wonder why their programmers write sloppy code.
+
+## A better question
 
 A better question might be to present the above code and ask the candidate if they see a problem with the code and then to refactor it so that there's no ambiguity. This would test the candidate's ability to identify bad code and to also refactor them.
 
