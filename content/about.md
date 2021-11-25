@@ -6,13 +6,18 @@ ShowBreadCrumbs: false
 ShowReadingTime: false
 ---
 
-Hello there! 👋 My name is Jesstern and this is my personal digital space.
+Hello there and welcome to my personal digital space! 👋
+
+My name is Jesstern. I am a [neurodivergent][1], [gender nonconforming][2] software engineer based in Singapore.
+
+[1]: https://www.verywellmind.com/what-is-neurodivergence-and-what-does-it-mean-to-be-neurodivergent-5196627
+[2]: https://www.verywellmind.com/gender-nonconforming-definition-4582878
 
 ## Work
 
-I work on both frontend and backend web development with software testing and high test coverage. I am a proponent of test driven development and pair programming which is part of [extreme programming](/notes/agile-extreme-programming).
+I work on both frontend and backend web development. I am a proponent of test driven development and pair programming which are part of [extreme programming](/notes/agile-extreme-programming).
 
-I was previously at [Thoughtworks](https://www.thoughtworks.com/) as a software engineer and technical consultant where I worked with several small and medium companies as well as large enterprises. Prior to that I worked as a freelance web developer. 🧑‍💻
+I have been a software engineer and technical consultant at [Thoughtworks](https://www.thoughtworks.com/) for 5 years where I work with clients to build disruptive technologies. Prior to that I worked as a freelance web developer. 🧑‍💻
 
 ## Community
 
@@ -33,12 +38,6 @@ When I go for long walks in the park I like to listen to podcasts and audiobooks
 ## Colophon
 
 This website is built using [Hugo](https://gohugo.io/) with the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme and hosted on [GitHub Pages](https://pages.github.com/).
-
-I keep a collection of short [notes](/notes) as a reference, occasional posts on my [blog](/blog), [projects](/projects) I've built, and some simple [recipes](/recipes).
-
-Read more about what I'm up to right [now](/now) or if you have questions, check out [FAQ](/faq).
-
-Most of the content on this site is [searchable](/search) or you can explore [tags](/tags).
 
 ---
 
